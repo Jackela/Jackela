@@ -25,7 +25,7 @@ A methodical and adaptable Master of Computer Science candidate (WAM: 77.4) with
 |---|---|---|
 | **AI-Enhanced PDF Scholar** | An intelligent platform to streamline academic literature review. | [Link](https://github.com/Jackela/ai_enhanced_pdf_scholar) |
 | **Cloud-Native Microservices for AI Image Annotation (COMP5349)** | A solo-developed, complete microservices-oriented system on AWS for AI image annotation. | [Link](https://github.com/Jackela/COMP5349) |
-| **Production-Grade Text Classification Framework (Project5)** | A framework for reproducing VDCNN text classification and re-architecting it into a production-ready system. | [Link](https://github.com/Jackela/Project5) |
+| **VDCNN Text Classification Framework (Project5)** | A framework for reproducing the VDCNN paper's text classification results, refactored with software engineering best practices for clarity and maintainability. | [Link](https://github.com/Jackela/Project5) |
 | **ELEC5620-Microservices (Doctor & Patient)** | A medical application based on a microservices architecture, split into Doctor and Patient services. | [Link](https://github.com/Jackela/ELEC5620-Doctor-Service) |
 | **E-commerce Platform for Used Phones (TUT9-G5)** | A full-stack e-commerce platform for selling used phones, built with the MERN stack. | [Link](https://github.com/Jackela/TUT9-G5) |
 
