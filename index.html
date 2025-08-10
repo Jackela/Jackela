@@ -3,142 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>孔维轩 (Weixuan Kong) - Personal Portfolio</title>
+    <title>孔维轩：第一性原理产品构建实践</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-shapes">
-        <div class="shape shape1"></div>
-        <div class="shape shape2"></div>
-        <div class="shape shape3"></div>
-    </div>
-
     <div class="container">
-        <header class="hero">
-            <h1 class="hero-title">孔维轩 (Weixuan Kong)</h1>
-            <p class="hero-subtitle">我是一名追求全面发展的复合型工程师，拥有扎实的计算机科学背景与前瞻的产品架构思维，并坚信最卓越的产品诞生于技术深度与人文关怀的交汇点。</p>
-            <div class="hero-contact">
-                <a href="https://github.com/Jackela" target="_blank" title="GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                </a>
-                <a href="mailto:Jackkong29@Gmail.com" title="Email">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-21.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
-                </a>
-                <a href="https://github.com/Jackela/Jackela/blob/main/README.md" target="_blank" class="cta-button">查看完整履历</a>
-            </div>
+        <header>
+            <h1>第一性原理产品构建实践</h1>
+            <p class="subtitle">— 孔维轩的思考与探索 —</p>
+            <p class="back-link"><a href="https://github.com/Jackela/Jackela">&larr; 返回 GitHub 主页</a></p>
         </header>
 
         <main>
-            <h2 class="section-title">全部项目</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>CAPSTONE：工时管理系统</h3>
-                        <p>作为产品负责人与架构师，采用DDD与模块化单体架构，为未来向微服务演进奠定基础。</p>
-                        <div class="tags"><span>Java</span><span>Spring Boot</span><span>DDD</span></div>
-                    </div>
-                    <span class="card-button-disabled">私有仓库</span>
-                </div>
-                <!-- Project 2 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>AI 招聘文员</h3>
-                        <p>主导设计的AI招聘平台，采用微服务架构，独立完成BRD/PRD/SRS产品全流程文档。</p>
-                        <div class="tags"><span>NestJS</span><span>Angular</span><span>Microservices</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/ai-recruitment-clerk" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 3 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>AI 增强PDF学术工具</h3>
-                        <p>生产级智能文献管理平台，后端采用高度模块化的异步处理流水线，支持CI/CD。</p>
-                        <div class="tags"><span>Python</span><span>FastAPI</span><span>React</span><span>Docker</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/ai_enhanced_pdf_scholar" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 4 -->
-                 <div class="card">
-                    <div class="card-content">
-                        <h3>Novel-Engine</h3>
-                        <p>基于《战锤40K》宇宙的多智能体AI叙事模拟系统，通过“神圣缓存协议”优化超85%的API调用。</p>
-                        <div class="tags"><span>Multi-Agent</span><span>System Design</span><span>Python</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/Novel-Engine" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 5 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>深度学习文本分类框架</h3>
-                        <p>精确复现顶级论文成果，并采用“配置即代码”思想重构为高扩展性的实验框架。</p>
-                        <div class="tags"><span>PyTorch</span><span>SOLID</span><span>Factory Pattern</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/Project5" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 6 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>云原生AI影像标注系统</h3>
-                        <p>事件驱动的无服务器系统，利用AWS将处理时延降低82%，通过IaC实现15分钟快速部署。</p>
-                        <div class="tags"><span>AWS Lambda</span><span>Serverless</span><span>IaC</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/COMP5349" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 7 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>行业战略分析报告</h3>
-                        <p>关于“数字人”在零售业应用的深度战略分析报告，运用“分布式创新”等高阶理论框架。</p>
-                        <div class="tags"><span>Strategy</span><span>Analysis</span><span>Business Acumen</span></div>
-                    </div>
-                     <span class="card-button-disabled">内部报告</span>
-                </div>
-                <!-- Project 8 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>分布式医疗微服务系统</h3>
-                        <p>作为Agile项目经理，基于AWS Lambda和Langchain4j，将团队协作效率提升约15%。</p>
-                        <div class="tags"><span>Java</span><span>AWS Lambda</span><span>Agile</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/ELEC5620-Doctor-Service" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 9 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>分布式商店平台</h3>
-                        <p>为解决分布式事务难题，深入研究并手动设计、实现了Saga模式，确保数据最终一致性。</p>
-                        <div class="tags"><span>Saga Pattern</span><span>gRPC</span><span>Spring Boot</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/sydney-comp5348-group-project-showcase" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 10 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>数学建模：自适应混合算法</h3>
-                        <p>针对两级滑雪租赁问题，设计创新算法，结合严格理论推导与大规模蒙特卡洛模拟验证。</p>
-                        <div class="tags"><span>Algorithm</span><span>Optimization</span><span>Modeling</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/CS29" class="card-button" target="_blank">探索仓库</a>
-                </div>
-                <!-- Project 11 -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3>在线购物平台 (MERN)</h3>
-                        <p>运用MERN技术栈构建的全栈电商平台，前端采用MVVM设计模式提升代码可维护性。</p>
-                        <div class="tags"><span>MERN</span><span>MVVM</span><span>Full-Stack</span></div>
-                    </div>
-                    <a href="https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase" class="card-button" target="_blank">探索仓库</a>
-                </div>
-            </div>
-        </main>
+            <article>
+                <h2>核心思考：为什么伟大的AI产品，诞生于对“不消费”的洞察？</h2>
+                <p>在阅读Clayton Christensen的《创新者的窘境》时，我深受启发。书中提出，行业的颠覆者，往往不是为现有市场的头部客户提供更好的产品（维持性创新），而是通过更简单、更便宜、更方便的技术，服务于那些被现有市场“过度服务”或完全忽略的“不消费”群体（破坏性创新）。</p>
+                <p>我坚信，AI技术，特别是大语言模型，正是当前时代最强大的“破坏性”引擎。它有潜力将过去只有大型企业才能负担得起的能力，赋能给每一个小微企业甚至个人。因此，在我的个人项目中，我刻意地探索了这一路径，并总结为两种主要的破坏性创新实践。</p>
+            </article>
 
-        <footer>
-            <p>&copy; 2025 Weixuan Kong</p>
-        </footer>
+            <hr>
+
+            <article>
+                <h3>实践一：“低端市场破坏”——为被忽略者提供“刚刚好”的价值</h3>
+                <blockquote>
+                    “破坏性创新的第一个战场，是找到那些因现有解决方案过于昂贵和复杂而‘不消费’的客户。” <br>— Clayton Christensen
+                </blockquote>
+                <p>传统的大型ATS（招聘管理系统）功能强大但价格昂贵，对于只有几个人的初创团队或独立猎头来说，他们是典型的“不消费”群体。他们不需要复杂的功能，只需要一个能快速判断“简历和岗位是否匹配”的核心工具。这个市场的核心性能维度，并非功能的广度，而是判断的“精准度”与“效率”。</p>
+                <p>我的 **<a href="https://github.com/Jackela/ai-recruitment-clerk" target="_blank" class="project-link">AI招聘文员</a>** 项目，正是基于这一洞察。它放弃了所有花哨的功能，只将RAG技术的能力聚焦在‘简历-JD匹配度’这一个核心性能维度上。这是一个典型的“低端市场破坏性创新”的尝试：用一个“刚刚好”的、成本极低的解决方案，服务于被忽略的市场。</p>
+            </article>
+            
+            <article>
+                <h3>实践二：“新市场破坏”——创造全新的性能维度</h3>
+                <blockquote>
+                    “有时，创新的价值在于让人们能够用一种全新的方式去做他们过去从未想过能做到的事。”
+                </blockquote>
+                <p>对于学术研究者来说，PDF阅读工具的核心价值一直是“阅读”和“标注”。但随着文献数量的爆炸式增长，真正的瓶颈已经变成了“理解”和“连接”。传统工具无法解决这个问题，导致研究者在“理解”这个层面形成了新的“不消费”市场。</p>
+                <p>我的 **<a href="https://github.com/Jackela/ai_enhanced_pdf_scholar" target="_blank" class="project-link">AI增强PDF学术工具</a>** 项目，旨在探索“新市场破坏性创新”的可能性。它通过RAG技术，开创了一个全新的性能维度——**‘对话式分析’**。用户不再是单向地“阅读”文献，而是可以与文献进行深度“对话”，让AI总结、提问、甚至发现不同论文之间的隐藏联系。这就为学术研究创造了一个此前不存在的、非消费性的新市场。</p>
+            </article>
+            
+            <article>
+                <h3>方法论沉淀：如何为创新构建“可进化的系统”</h3>
+                <blockquote>
+                    “一个产品从服务少数‘早期采纳者’到服务广阔的‘主流市场’，其系统面临的挑战是指数级增长的。” <br>— Geoffrey Moore, 《跨越鸿沟》
+                </blockquote>
+                <p>无论是服务低端市场还是新市场，破坏性创新都充满了不确定性。因此，产品的技术架构必须具备极高的“可进化性”，以应对未来可能出现的、截然不同的规模化挑战。</p>
+                <p>在我的 **<a href="https://github.com/Jackela/sydney-comp5348-group-project-showcase" target="_blank" class="project-link">分布式商店平台</a>** 项目中，我在初期就投入巨大成本手动实现Saga模式，这在当时看来是一种“过度工程化”。但这正是我对“可进化系统”的长期承诺。这个看似“过重”的架构，是为确保产品在未来有能力“跨越鸿沟”而预先构建的桥梁，它提供了在分布式环境下保证数据一致性的健壮性，这是系统得以进化的基石。</p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h2>全部项目档案 (Complete Project Archive)</h2>
+                <p>以下是我的全部项目列表，点击可跳转至对应的GitHub仓库进行深入探查。</p>
+                <div class="projects-grid">
+                    <a href="https://github.com/Jackela/Jackela" class="card"><h3>CAPSTONE：工时管理系统</h3><p>采用DDD与模块化单体架构，为未来向微服务演进奠定基础。</p></a>
+                    <a href="https://github.com/Jackela/ai-recruitment-clerk" class="card"><h3>AI 招聘文员</h3><p>主导设计的AI招聘平台，采用微服务架构，独立完成BRD/PRD/SRS产品全流程文档。</p></a>
+                    <a href="https://github.com/Jackela/ai_enhanced_pdf_scholar" class="card"><h3>AI 增强PDF学术工具</h3><p>生产级智能文献管理平台，后端采用高度模块化的异步处理流水线，支持CI/CD。</p></a>
+                    <a href="https://github.com/Jackela/Novel-Engine" class="card"><h3>Novel-Engine</h3><p>基于多智能体协作的AI叙事模拟系统，通过“神圣缓存协议”优化超85%的API调用。</p></a>
+                    <a href="https://github.com/Jackela/Project5" class="card"><h3>深度学习文本分类框架</h3><p>精确复现顶级论文成果，并采用“配置即代码”思想重构为高扩展性的实验框架。</p></a>
+                    <a href="https://github.com/Jackela/COMP5349" class="card"><h3>云原生AI影像标注系统</h3><p>事件驱动的无服务器系统，利用AWS将处理时延降低82%，通过IaC实现15分钟快速部署。</p></a>
+                    <div class="card disabled"><h3>行业战略分析报告</h3><p>关于“数字人”在零售业应用的深度战略分析报告，运用“分布式创新”等高阶理论框架。</p></div>
+                    <a href="https://github.com/Jackela/ELEC5620-Doctor-Service" class="card"><h3>分布式医疗微服务系统</h3><p>作为Agile项目经理，基于AWS Lambda和Langchain4j，将团队协作效率提升约15%。</p></a>
+                    <a href="https://github.com/Jackela/sydney-comp5348-group-project-showcase" class="card"><h3>分布式商店平台</h3><p>为解决分布式事务难题，深入研究并手动设计、实现了Saga模式，确保数据最终一致性。</p></a>
+                    <a href="https://github.com/Jackela/CS29" class="card"><h3>数学建模：自适应混合算法</h3><p>针对两级滑雪租赁问题，设计创新算法，结合严格理论推导与大规模蒙特卡洛模拟验证。</p></a>
+                    <a href="https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase" class="card"><h3>在线购物平台 (MERN)</h3><p>运用MERN技术栈构建的全栈电商平台，前端采用MVVM设计模式提升代码可维护性。</p></a>
+                </div>
+            </article>
+        </main>
     </div>
 </body>
 </html>
