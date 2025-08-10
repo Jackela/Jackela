@@ -72,7 +72,7 @@
 *   **描述:** 精确复现VDCNN和DenseNet两篇顶级深度学习论文的文本分类成果，并将其重构为一个生产级的实验框架。采用“配置即代码”的核心思想，通过YAML文件驱动整个实验流程。架构严格遵循SOLID设计原则和工厂模式，将各模块高度解耦。
 
 #### 6. 学校课程项目：云原生AI影像标注系统
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![IaC](https://img.io/badge/IaC-CloudFormation-orange)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![IaC](https://img.shields.io/badge/IaC-CloudFormation-orange)
 *   **角色:** 独立开发者与架构师
 *   **项目链接:** [GitHub](https://github.com/Jackela/COMP5349)
 *   **描述:** 为大规模AI影像标注任务，独立设计并部署了一个完整的事件驱动、无服务器（Serverless）系统。利用AWS S3 Events, EventBridge和并行Lambda函数，成功将单批次处理时延从45秒降至8秒（-82%）。通过IaC，使用模块化的CloudFormation模板将复杂的云环境配置时间缩短至15分钟。
