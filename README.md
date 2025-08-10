@@ -12,164 +12,103 @@
 | 类别 | 技能 |
 | :--- | :--- |
 | **编程语言** | `Java`, `Python`, `JavaScript/TypeScript`, `C#`, `SQL` |
-| **框架 & 库** | `FastAPI`, `Spring Boot`, `React`, `NestJS`, `Node.js`, `Next.js`, `PyTorch`, `LlamaIndex`, `Haystack`, `Langchain4j` |
-| **数据库** | `MySQL`, `PostgreSQL`, `MongoDB`, `SQLite`, `DynamoDB`, `Milvus` |
-| **云原生 & DevOps** | `AWS (Lambda, S3, EventBridge, CloudFormation)`, `Docker`, `Kubernetes`, `Git`, `CI/CD (GitHub Actions)` |
-| **架构 & 方法论** | `领域驱动设计 (DDD)`, `微服务架构`, `事件驱动架构`, `Saga 模式`, `RAG`, `Serverless`, `配置驱动设计`, `SOLID` |
+| **框架 & 库** | `FastAPI`, `Spring Boot`, `React`, `Node.js`, `Next.js`, `PyTorch`, `LlamaIndex`, `Haystack`, `Langchain4j` |
+| **数据库** | `MySQL`, `PostgreSQL`, `MongoDB`, `SQLite`, `DynamoDB`, `Milvus`, `ChromaDB` |
+| **云原生 & DevOps** | `AWS (Lambda, S3, API Gateway)`, `Docker`, `Kubernetes`, `Terraform`, `Git`, `CI/CD (GitHub Actions)` |
+| **架构 & 方法论** | `领域驱动设计 (DDD)`, `敏捷开发 (Agile/Jira)`, `微服务架构`, `分布式系统`, `RAG`, `MoSCoW`, `Serverless`, `MVVM`, `SOLID`, `配置驱动设计` |
 
 ---
 
-### 精选项目经历 (Featured Projects)
+### 项目经历 (Projects)
 
-#### 1. AI 增强的 PDF 学术工具 (AI Enhanced PDF Scholar)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-444444?logo=llama&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
+#### 1. CAPSTONE毕业设计：临时学术人员工时管理系统
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-Architecture-blue)
 
-**一个生产级的智能学术文献管理平台，利用 RAG 技术增强 PDF (含扫描版) 的阅读、查询和分析体验。**
+*   **角色:** 产品负责人与架构师
+*   **描述:** 独立承担产品负责人与架构师双重角色，旨在通过数字化系统解决企业内部工时管理及财务审计的痛点。规划采用“模块化单体”架构，利用DDD和清晰的限界上下文，并借鉴“绞杀榕模式”为未来向微服务平滑演进奠定基础。通过撰写超20页技术备忘录系统化地论证了技术选型。
 
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/ai_enhanced_pdf_scholar)
+#### 2. 个人独立项目：AI招聘文员 (AI Recruitment Clerk)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
-*   **智能问答与分析:** 基于 `LlamaIndex` 和 `Gemini API` 构建了复杂文档的问答引擎，支持对 PDF 内容进行深度语义查询和摘要生成。
-*   **生产级工程实践:**
-    *   **完全容器化:** 使用 `Docker` 和 `Docker Compose` 精心编排了独立的开发、测试与生产环境。生产环境采用 `Nginx` + `Gunicorn` + `Uvicorn` 的高性能部署方案。
-    *   **全面的自动化测试:** 项目拥有超过 75% 的代码覆盖率，集成了单元测试、集成测试和端到端（E2E）测试，并通过 `GitHub Actions` 实现 CI/CD，确保代码质量。
-*   **技术栈:** `Python`, `FastAPI`, `LlamaIndex`, `Gemini API`, `PyMuPDF`, `Docker`, `Nginx`, `GitHub Actions`。
+*   **角色:** 产品设计者 & 全栈开发者
+*   **项目链接:** [GitHub](https://github.com/Jackela/ai-recruitment-clerk)
+*   **描述:** 主导设计并开发AI驱动的自动化招聘辅助平台。独立撰写BRD/PRD/SRS全套产品文档。技术上采用微服务架构（Angular + NestJS网关），连接简历解析、JD提取、报告生成等多个独立AI服务，并通过Docker容器化部署。
 
-#### 2. AI 招聘文员 (AI Recruitment Clerk)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![NATS](https://img.shields.io/badge/NATS-2F2F2F?logo=natsdotio&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+#### 3. 个人独立项目：AI增强PDF学术工具
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?logo=websocket&logoColor=white)
 
-**一个由 AI 驱动的自动化招聘辅助平台，通过微服务架构和 RAG 技术提升简历筛选和人岗匹配的效率与精准度。**
+*   **角色:** 独立开发者与产品设计者
+*   **项目链接:** [GitHub (App)](https://github.com/Jackela/ai_enhanced_pdf_scholar), [GitHub (Server)](https://github.com/Jackela/mcp-academic-rag-server)
+*   **描述:** 开发生产级的智能学术文献管理平台。集成LlamaIndex/Haystack和Gemini API实现对PDF（含扫描版）的智能问答。后端采用高度模块化的异步处理流水线，依次调用OCR、文档结构化、向量化等可插拔处理器。项目完全容器化，拥有全面的测试体系并通过GitHub Actions实现CI/CD。
 
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/AI-Recruitment-Clerk)
-
-*   **微服务架构设计:**
-    *   系统被清晰地拆分为五个核心微服务：`API 网关`、`简历解析服务`、`JD 提取服务`、`人岗匹配评分引擎` 和 `分析报告生成服务`。
-    *   服务间通过 `NATS` 消息队列进行异步通信，实现了高内聚、低耦合的系统设计，确保了系统的可扩展性和容错性。
-*   **技术栈:** `TypeScript`, `NestJS`, `Angular`, `MongoDB`, `NATS`, `Docker`, `Gemini API`。
-
-#### 3. Novel-Engine (多智能体互动小说生成器)
+#### 4. 个人独立项目：Novel-Engine (多智能体互动小说生成器)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E44AD?logo=google&logoColor=white)
 
-**一个基于《战锤 40K》宇宙的多智能体 AI 叙事模拟系统，通过智能体协作动态生成战役叙事。**
+*   **角色:** 独立开发者与系统架构师
+*   **项目链接:** [GitHub](https://github.com/Jackela/Novel-Engine)
+*   **描述:** 构建基于《战锤40K》宇宙的多智能体AI叙事模拟系统。设计了包含Director, Persona, Chronicler三种角色的智能体协作系统。通过LRU与SHA256哈希缓存（“神圣缓存协议”）避免了超85%的重复API调用。实现了线程安全、优雅降级和分级日志等生产级特性。
 
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/Novel-Engine)
-
-*   **多智能体协作系统:** 设计并实现了 `System Orchestrator` (导演智能体)，负责驱动故事发展、管理场景和协调其他智能体。
-*   **分层记忆与缓存协议:** 为智能体设计了复杂的分层记忆系统（包含工作记忆、情景记忆、语义记忆），并通过高效的内存查询引擎和缓存机制（即简历中提到的“神圣缓存协议”），显著优化了性能。
-*   **技术栈:** `Python`, `Gemini API`, `Pydantic`, `Loguru`。
-
-#### 4. CAPSTONE：临时学术人员工时管理系统
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-Architecture-blue)
-
-**旨在解决高校临时学术人员工时管理及财务审计痛点的数字化系统，我在其中独立承担产品负责人与架构师角色。**
-
-*(该项目为私有仓库)*
-
-*   **架构设计:** 采用 **“模块化单体”** 架构，项目包结构严格遵循 **领域驱动设计 (DDD)** 思想，划分为 `domain`, `infrastructure`, `api` 等多个层，展现了清晰的六边形架构理念。
-*   **产品规划:** 采用 `MoSCoW` 方法对需求进行优先级排序，定义了 MVP (最小可行产品) 的核心功能。
-*   **技术栈:** `Java`, `Spring Boot`, `DDD`, `PostgreSQL`, `Thymeleaf`。
-
-#### 5. 云原生 AI 影像标注系统
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?logo=aws-cloudformation&logoColor=white)
-
-**一个为大规模 AI 影像标注任务设计的事件驱动、无服务器 (Serverless) 系统，可将处理时延降低 82%。**
-
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/COMP5349)
-
-*   **事件驱动与 Serverless 架构:** 核心流程由 `AWS S3` 的对象创建事件触发，通过 `EventBridge` 将任务分发给并行的 `AWS Lambda` 函数，实现了高效的异步处理。
-*   **基础设施即代码 (IaC):** 使用 `AWS CloudFormation` 将整个云基础设施进行模块化、代码化管理，将复杂的云环境配置时间从数小时缩短至 15 分钟。
-<details>
-  <summary>点击查看架构图</summary>
-
-```mermaid
-graph TD
-    subgraph "User"
-        A[Browser]
-    end
-
-    subgraph "AWS Cloud"
-        subgraph "Presentation Layer"
-            B[Application Load Balancer]
-            C[EC2 Auto Scaling Group]
-            D[Flask Web App on EC2]
-        end
-
-        subgraph "Storage Layer"
-            E[S3 Bucket for Original Images]
-            F[S3 Bucket for Thumbnails]
-            G[RDS MySQL Database]
-        end
-
-        subgraph "Processing Layer"
-            H[EventBridge]
-            I[Annotation Lambda]
-            J[Thumbnail Lambda]
-        end
-
-        subgraph "External Services"
-            K[Google Gemini API]
-        end
-    end
-
-    A -- HTTP Request --> B
-    B -- Forwards Traffic --> C
-    C -- Manages --> D
-    D -- Uploads to --> E
-    D -- Writes Metadata to --> G
-    D -- Reads Metadata from --> G
-    D -- Generates Presigned URLs for --> E
-    D -- Generates Presigned URLs for --> F
-
-    E -- Object Created Event --> H
-
-    H -- Triggers --> I
-    H -- Triggers --> J
-
-    I -- Downloads from --> E
-    I -- Calls --> K
-    I -- Updates Metadata in --> G
-
-    J -- Downloads from --> E
-    J -- Uploads to --> F
-    J -- Updates Metadata in --> G
-```
-</details>
-
-*   **技术栈:** `Python`, `Flask`, `AWS (S3, Lambda, EventBridge, RDS, EC2, CloudFormation)`, `Docker`。
-
-#### 6. 分布式医疗微服务系统
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Langchain4j](https://img.shields.io/badge/Langchain4j-444444)
-
-**一个基于 AWS Serverless 构建的 AI 医疗微服务系统，作为 Agile 项目经理和核心后端开发者参与。**
-
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/ELEC5620-Doctor-Service)
-
-*   **Serverless 微服务:** 系统被拆分为 `Doctor` 和 `Patient` 两个核心服务，每个服务都是一个独立的 `AWS Lambda` 函数，遵循“单一职责”和“数据库-每-服务”的设计模式。
-*   **AI 功能集成:** 使用 `Langchain4j` 框架集成大语言模型，为系统提供智能问诊或病历分析等 AI 功能。
-*   **技术栈:** `Java`, `AWS Lambda`, `Langchain4j`, `API Gateway`, `DynamoDB`。
-
-#### 7. 分布式商店平台 (Saga 模式实现)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-000000?logo=grpc&logoColor=white) ![Saga Pattern](https://img.shields.io/badge/Saga-Pattern-blue)
-
-**一个基于微服务架构的全栈电子商务平台，为解决分布式事务问题，深入研究并手动实现了 Saga 模式。**
-
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
-
-*   **分布式事务解决方案:** 为解决下单、扣减库存、更新订单状态等跨服务操作的原子性问题，设计并实现了一套完整的 **Saga 编排**流程，确保了关键业务场景下跨服务的数据最终一致性。
-*   **高性能微服务集群:** 后端采用 `Java Spring Boot` 构建微服务集群，服务间通过 `gRPC` 进行高性能、低延迟的二进制通信。
-*   **技术栈:** `Java`, `Spring Boot`, `gRPC`, `Saga Pattern`, `Next.js`, `TypeScript`, `Docker`。
-
-#### 8. 深度学习文本分类框架
+#### 5. 学术复现项目：深度学习文本分类框架
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=white)
 
-**一个精确复现顶级论文 (VDCNN, DenseNet) 成果，并重构为一个生产级的、配置驱动的文本分类实验框架。**
+*   **角色:** 独立研究员与软件工程师
+*   **项目链接:** [GitHub](https://github.com/Jackela/Project5)
+*   **描述:** 精确复现VDCNN和DenseNet论文成果。采用“配置即代码”思想，通过YAML文件驱动整个实验流程。架构严格遵循SOLID和工厂模式，将数据处理、模型定义、训练评估等模块高度解耦。
 
-[**➡️ 查看 GitHub 仓库**](https://github.com/Jackela/Project5)
+#### 6. 学校课程项目：云原生AI影像标注系统
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?logo=aws-cloudformation&logoColor=white)
 
-*   **配置驱动设计:** 采用“配置即代码”思想，通过 `YAML` 文件来驱动整个实验流程，实现了代码与实验配置的完全分离，保证了研究的可复现性。
-*   **高扩展性架构:** 严格遵循 `SOLID` 原则和工厂模式，将数据处理、模型定义、训练循环等模块高度解耦，支持快速实验。
-*   **技术栈:** `Python`, `PyTorch`, `YAML`, `Scikit-learn`, `Pandas`。
+*   **角色:** 独立开发者与架构师
+*   **项目链接:** [GitHub](https://github.com/Jackela/COMP5349)
+*   **描述:** 独立设计并部署完整的事件驱动、无服务器系统。利用AWS S3 Events, EventBridge和并行Lambda函数，将单批次处理时延从45秒降至8秒（-82%）。使用模块化的CloudFormation模板（IaC）将复杂的云环境配置时间缩短至15分钟。
+
+#### 7. 行业战略分析报告：零售业中的数字人
+*   **角色:** 核心分析师 & 报告整合负责人
+*   **描述:** 主导完成关于“数字人”在零售行业应用的深度战略分析报告。运用“分布式创新”和“API平台战略”等高阶理论框架，深度剖析了顶级企业的不同创新模式。负责整体对比分析的结构搭建和主要撰写，展现了优秀的战略分析与系统整合能力。
+
+#### 8. 分布式医疗微服务系统
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Langchain4j](https://img.shields.io/badge/Langchain4j-444444)
+
+*   **角色:** Agile项目经理 & 核心后端开发者
+*   **项目链接:** [GitHub](https://github.com/Jackela/ELEC5620-Doctor-Service)
+*   **描述:** 基于AWS Lambda和Langchain4j，共同开发无服务器化的AI医疗微服务系统。作为Agile项目经理使用Jira提升团队协作效率约15%。架构上拆分为Doctor和Patient两个核心服务，遵循“单一职责”和“数据库-每-服务”模式。
+
+#### 9. 分布式商店平台 (Saga模式实现)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-000000?logo=grpc&logoColor=white)
+
+*   **角色:** 架构师 & 核心后端开发者
+*   **项目链接:** [GitHub](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
+*   **描述:** 负责设计并实现基于微服务架构的全栈电子商务平台。为解决分布式事务难题，深入研究并手动设计、实现了Saga模式，确保了关键业务场景下跨服务的数据最终一致性。
+
+#### 10. 数学建模项目：自适应混合随机算法
+*   **角色:** 独立研究员与算法工程师
+*   **项目链接:** [GitHub](https://github.com/Jackela/CS29)
+*   **描述:** 针对在线优化中的两级滑雪租赁问题，设计并实现了一种创新的自适应混合随机算法。结合了严格的理论推导（势函数分析）与大规模的实验验证（蒙特卡洛模拟）。
+
+#### 11. 在线购物平台 (MERN Stack)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+
+*   **角色:** 核心开发者
+*   **项目链接:** [GitHub](https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase)
+*   **描述:** 运用MERN技术栈，构建并交付了一个功能完善的全栈电子商务平台原型。前端采用了MVVM设计模式，通过自定义ViewModel Hooks将UI逻辑与视图层有效分离。
 
 ---
 
-### 关于我 (About Me)
-我是一名追求全面发展的复合型工程师，拥有扎实的计算机科学背景与前瞻的产品架构思维，并坚信最卓越的产品诞生于技术深度与人文关怀的交汇点。我的思维模型受益于长期且跨学科的系统性阅读（自 2019 年以来投入超 3300 小时，阅读 863 本书籍），这让我构建了以计算机科学为深度、人文社科为广度的“T 型知识结构”，使我能从第一性原理理解技术，更能洞察用户和商业的本质，在复杂问题中找到创新的解决方案。我渴望能加入一个顶尖的团队，将我对技术的热情、对产品的好奇心和跨学科的思考力相结合，共同打造能为用户和社会创造巨大价值的产品。
+### 实习经历 (Experience)
+
+**北京愿景明控集团** (2023年6月 - 2023年8月)
+*   **职位:** 人工智能团队实习生 (AI Team Intern)
+*   **核心贡献:** 独立设计并工程化实现Java工具类，成功桥接Java主体业务与Python AI服务，将模块集成时间从数天缩短至数小时。主导关于LLM的内部技术培训。
+
+**罗姆尼光电系统技术(广东)有限公司** (2022年5月 - 2022年7月)
+*   **职位:** 工程助理实习生 (Engineering Assistant Intern)
+*   **核心贡献:** 协助工程项目任务的执行与跟进，积累了团队协作与沟通经验。
+
+---
+
+### 个人简介 (Profile)
+我是一名追求全面发展的复合型工程师，拥有扎实的计算机科学背景与前瞻的产品架构思维，并坚信最卓越的产品诞生于技术深度与人文关怀的交汇点。
+
+我的思维模型，受益于长期且跨学科的系统性阅读。自2019年以来，我投入了超过3300小时，阅读了863本书籍。这让我构建了以计算机科学为深度，人文社科为广度的“T型知识结构”。这种阅读习惯让我不仅能从第一性原理理解技术，更能洞察用户和商业的本质，在复杂问题中找到创新的解决方案。
+
+我渴望能加入一个顶尖的团队，将我对技术的热情、对产品的好奇心和跨学科的思考力相结合，共同打造能为用户和社会创造巨大价值的产品。

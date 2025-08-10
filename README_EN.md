@@ -12,164 +12,103 @@ Hello! I am a multifaceted and passionate engineer with a firm belief that the m
 | Category | Skills |
 | :--- | :--- |
 | **Programming Languages** | `Java`, `Python`, `JavaScript/TypeScript`, `C#`, `SQL` |
-| **Frameworks & Libraries** | `FastAPI`, `Spring Boot`, `React`, `NestJS`, `Node.js`, `Next.js`, `PyTorch`, `LlamaIndex`, `Haystack`, `Langchain4j` |
-| **Databases** | `MySQL`, `PostgreSQL`, `MongoDB`, `SQLite`, `DynamoDB`, `Milvus` |
-| **Cloud-Native & DevOps** | `AWS (Lambda, S3, EventBridge, CloudFormation)`, `Docker`, `Kubernetes`, `Git`, `CI/CD (GitHub Actions)` |
-| **Architecture & Methodologies** | `Domain-Driven Design (DDD)`, `Microservices`, `Event-Driven Architecture`, `Saga Pattern`, `RAG`, `Serverless`, `Configuration-Driven Design`, `SOLID` |
+| **Frameworks & Libraries** | `FastAPI`, `Spring Boot`, `React`, `Node.js`, `Next.js`, `PyTorch`, `LlamaIndex`, `Haystack`, `Langchain4j` |
+| **Databases** | `MySQL`, `PostgreSQL`, `MongoDB`, `SQLite`, `DynamoDB`, `Milvus`, `ChromaDB` |
+| **Cloud-Native & DevOps** | `AWS (Lambda, S3, API Gateway)`, `Docker`, `Kubernetes`, `Terraform`, `Git`, `CI/CD (GitHub Actions)` |
+| **Architecture & Methodologies** | `Domain-Driven Design (DDD)`, `Agile/Jira`, `Microservices`, `Distributed Systems`, `RAG`, `MoSCoW`, `Serverless`, `MVVM`, `SOLID`, `Configuration-Driven Design` |
 
 ---
 
-### Featured Projects
+### Projects
 
-#### 1. AI Enhanced PDF Scholar
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-444444?logo=llama&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
+#### 1. CAPSTONE: Casual Academic Time Allocation Management System
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-Architecture-blue)
 
-**A production-grade, intelligent academic document management platform that enhances the experience of reading, querying, and analyzing PDFs (including scanned versions) using RAG technology.**
-
-[**➡️ View on GitHub**](https://github.com/Jackela/ai_enhanced_pdf_scholar)
-
-*   **Intelligent Q&A and Analysis:** Built a sophisticated document Q&A engine using `LlamaIndex` and the `Gemini API` to support deep semantic queries and summary generation for complex PDF content.
-*   **Production-Grade Engineering Practices:**
-    *   **Fully Containerized:** Meticulously orchestrated separate development, testing, and production environments using `Docker` and `Docker Compose`. The production environment utilizes a high-performance `Nginx` + `Gunicorn` + `Uvicorn` deployment stack.
-    *   **Comprehensive Automated Testing:** Achieved over 75% code coverage with a suite of unit, integration, and end-to-end (E2E) tests. CI/CD is implemented via `GitHub Actions` to ensure code quality.
-*   **Tech Stack:** `Python`, `FastAPI`, `LlamaIndex`, `Gemini API`, `PyMuPDF`, `Docker`, `Nginx`, `GitHub Actions`.
+*   **Role:** Product Owner & Architect
+*   **Description:** Currently leading the project as both Product Owner and Architect to solve internal timesheet management and financial auditing challenges. The architecture is a "Modular Monolith" leveraging DDD and clear Bounded Contexts, with the "Strangler Fig Pattern" in mind for a smooth future evolution to microservices. Systematically justified technology choices via a 20+ page technical and strategic memo.
 
 #### 2. AI Recruitment Clerk
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![NATS](https://img.shields.io/badge/NATS-2F2F2F?logo=natsdotio&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
-**An AI-driven, automated recruitment assistance platform that improves the efficiency and accuracy of resume screening and job matching through a microservices architecture and RAG technology.**
+*   **Role:** Product Designer & Full-Stack Developer
+*   **Link:** [GitHub](https://github.com/Jackela/ai-recruitment-clerk)
+*   **Description:** Led the design and development of an AI-driven recruitment platform. Independently authored a full suite of product documents (BRD, PRD, SRS). The technical architecture is based on microservices (Angular + NestJS Gateway) connecting multiple AI services (resume parsing, JD extraction, report generation), containerized with Docker.
 
-[**➡️ View on GitHub**](https://github.com/Jackela/AI-Recruitment-Clerk)
+#### 3. AI Enhanced PDF Scholar
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?logo=websocket&logoColor=white)
 
-*   **Microservices Architecture Design:**
-    *   The system is cleanly decoupled into five core microservices: an `API Gateway`, `Resume Parser Service`, `JD Extractor Service`, `Candidate Scoring Engine`, and `Analytics Report Generator`.
-    *   Services communicate asynchronously via a `NATS` message queue, achieving a high-cohesion, low-coupling design that ensures system scalability and fault tolerance.
-*   **Tech Stack:** `TypeScript`, `NestJS`, `Angular`, `MongoDB`, `NATS`, `Docker`, `Gemini API`.
+*   **Role:** Independent Developer & Product Designer
+*   **Links:** [GitHub (App)](https://github.com/Jackela/ai_enhanced_pdf_scholar), [GitHub (Server)](https://github.com/Jackela/mcp-academic-rag-server)
+*   **Description:** Developed a production-grade, intelligent document management platform. Integrated LlamaIndex/Haystack and Gemini API for smart Q&A on PDFs (including scanned ones). The backend features a modular, asynchronous processing pipeline with pluggable processors (OCR, structuring, vectorization). The system is fully containerized, has a comprehensive test suite, and uses GitHub Actions for CI/CD.
 
-#### 3. Novel-Engine (Multi-Agent Interactive Fiction Generator)
+#### 4. Novel-Engine (Multi-Agent Interactive Fiction Generator)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E44AD?logo=google&logoColor=white)
 
-**A multi-agent AI narrative simulation system based on the Warhammer 40K universe that generates dynamic campaign narratives through agent collaboration.**
+*   **Role:** Independent Developer & Systems Architect
+*   **Link:** [GitHub](https://github.com/Jackela/Novel-Engine)
+*   **Description:** Built a multi-agent AI narrative simulation system in the Warhammer 40K universe. Designed a collaborative system with Director, Persona, and Chronicler agents. Optimized performance by over 85% with a "Sacred Cache Protocol" using LRU and SHA256 hashing. Implemented production-grade features like thread-safety, graceful degradation, and a tiered logging system.
 
-[**➡️ View on GitHub**](https://github.com/Jackela/Novel-Engine)
-
-*   **Multi-Agent Collaborative System:** Designed and implemented a `System Orchestrator` (the "Director" agent) responsible for driving the story, managing scenes, and coordinating other agents.
-*   **Layered Memory & Caching Protocol:** Engineered a sophisticated layered memory system for agents (including working, episodic, and semantic memory) and significantly optimized performance via an efficient query engine and caching mechanism (the "Sacred Cache Protocol" from the resume).
-*   **Tech Stack:** `Python`, `Gemini API`, `Pydantic`, `Loguru`.
-
-#### 4. CAPSTONE: Casual Academic Time Allocation Management System
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-Architecture-blue)
-
-**A digital system designed to solve the pain points of timesheet management and financial auditing for casual academic staff at universities, for which I served as both Product Owner and Architect.**
-
-*(This project is in a private repository)*
-
-*   **Architectural Design:** Adopted a **"Modular Monolith"** architecture, with the project's package structure strictly following **Domain-Driven Design (DDD)** principles into layers like `domain`, `infrastructure`, and `api`, demonstrating a clean, hexagonal architecture.
-*   **Product Planning:** Utilized the `MoSCoW` method to prioritize requirements and define the MVP's core features.
-*   **Tech Stack:** `Java`, `Spring Boot`, `DDD`, `PostgreSQL`, `Thymeleaf`.
-
-#### 5. Cloud-Native AI Image Annotation System
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?logo=aws-cloudformation&logoColor=white)
-
-**An event-driven, serverless system designed for large-scale AI image annotation tasks, which successfully reduced processing latency by 82%.**
-
-[**➡️ View on GitHub**](https://github.com/Jackela/COMP5349)
-
-*   **Event-Driven & Serverless Architecture:** The core workflow is triggered by `AWS S3` object creation events and routed via `EventBridge` to parallel `AWS Lambda` functions, enabling highly efficient asynchronous processing.
-*   **Infrastructure as Code (IaC):** Managed the entire cloud infrastructure using modular `AWS CloudFormation` templates, reducing complex environment configuration time from hours to just 15 minutes.
-<details>
-  <summary>Click to view Architecture Diagram</summary>
-
-```mermaid
-graph TD
-    subgraph "User"
-        A[Browser]
-    end
-
-    subgraph "AWS Cloud"
-        subgraph "Presentation Layer"
-            B[Application Load Balancer]
-            C[EC2 Auto Scaling Group]
-            D[Flask Web App on EC2]
-        end
-
-        subgraph "Storage Layer"
-            E[S3 Bucket for Original Images]
-            F[S3 Bucket for Thumbnails]
-            G[RDS MySQL Database]
-        end
-
-        subgraph "Processing Layer"
-            H[EventBridge]
-            I[Annotation Lambda]
-            J[Thumbnail Lambda]
-        end
-
-        subgraph "External Services"
-            K[Google Gemini API]
-        end
-    end
-
-    A -- HTTP Request --> B
-    B -- Forwards Traffic --> C
-    C -- Manages --> D
-    D -- Uploads to --> E
-    D -- Writes Metadata to --> G
-    D -- Reads Metadata from --> G
-    D -- Generates Presigned URLs for --> E
-    D -- Generates Presigned URLs for --> F
-
-    E -- Object Created Event --> H
-
-    H -- Triggers --> I
-    H -- Triggers --> J
-
-    I -- Downloads from --> E
-    I -- Calls --> K
-    I -- Updates Metadata in --> G
-
-    J -- Downloads from --> E
-    J -- Uploads to --> F
-    J -- Updates Metadata in --> G
-```
-</details>
-
-*   **Tech Stack:** `Python`, `Flask`, `AWS (S3, Lambda, EventBridge, RDS, EC2, CloudFormation)`, `Docker`.
-
-#### 6. Distributed Medical Microservices System
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Langchain4j](https://img.shields.io/badge/Langchain4j-444444)
-
-**An AI-powered medical microservices system built on AWS Serverless, where I contributed as an Agile Project Manager and Core Backend Developer.**
-
-[**➡️ View on GitHub**](https://github.com/Jackela/ELEC5620-Doctor-Service)
-
-*   **Serverless Microservices:** The system was split into `Doctor` and `Patient` services, each implemented as an independent `AWS Lambda` function, adhering to the "Single Responsibility" and "Database-per-Service" design patterns.
-*   **AI Integration:** Integrated large language models using the `Langchain4j` framework to provide the system with intelligent features like AI-assisted diagnostics.
-*   **Tech Stack:** `Java`, `AWS Lambda`, `Langchain4j`, `API Gateway`, `DynamoDB`.
-
-#### 7. Distributed Store Platform (Saga Pattern Implementation)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-000000?logo=grpc&logoColor=white) ![Saga Pattern](https://img.shields.io/badge/Saga-Pattern-blue)
-
-**A full-stack e-commerce platform based on a microservices architecture, for which I researched and manually implemented the Saga pattern to solve distributed transaction challenges.**
-
-[**➡️ View on GitHub**](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
-
-*   **Distributed Transaction Solution:** Designed and implemented a complete **Saga orchestration** flow to ensure atomicity for cross-service operations, guaranteeing eventual consistency for critical business scenarios.
-*   **High-Performance Microservices Cluster:** The backend was built with a `Java Spring Boot` microservices cluster, with services communicating via high-performance, low-latency binary `gRPC` calls.
-*   **Tech Stack:** `Java`, `Spring Boot`, `gRPC`, `Saga Pattern`, `Next.js`, `TypeScript`, `Docker`.
-
-#### 8. Deep Learning Text Classification Framework
+#### 5. Deep Learning Text Classification Framework
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=white)
 
-**A production-grade, configuration-driven text classification framework that accurately reproduces the results of top-tier academic papers (VDCNN, DenseNet).**
+*   **Role:** Independent Researcher & Software Engineer
+*   **Link:** [GitHub](https://github.com/Jackela/Project5)
+*   **Description:** Accurately reproduced the results of the VDCNN and DenseNet papers and refactored them into a production-grade experimental framework. Employed a "configuration-as-code" philosophy using YAML files to drive the entire workflow. The architecture strictly follows SOLID principles and the Factory Pattern for high extensibility.
 
-[**➡️ View on GitHub**](https://github.com/Jackela/Project5)
+#### 6. Cloud-Native AI Image Annotation System
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?logo=aws-cloudformation&logoColor=white)
 
-*   **Configuration-Driven Design:** Adopted a "configuration-as-code" philosophy, using `YAML` files to drive the entire experimental workflow, which decouples code from experiment configuration and ensures high reproducibility.
-*   **Highly Extensible Architecture:** Strictly adhered to `SOLID` principles and the Factory pattern to highly decouple data processing, model definition, and training loop modules, allowing for rapid extension.
-*   **Tech Stack:** `Python`, `PyTorch`, `YAML`, `Scikit-learn`, `Pandas`.
+*   **Role:** Independent Developer & Architect
+*   **Link:** [GitHub](https://github.com/Jackela/COMP5349)
+*   **Description:** Independently designed and deployed a complete event-driven, serverless system for large-scale AI image annotation. Reduced batch processing latency from 45s to 8s (-82%) using AWS S3 Events, EventBridge, and parallel Lambda functions. Orchestrated the entire cloud infrastructure using modular CloudFormation templates (IaC), cutting deployment time from hours to 15 minutes.
+
+#### 7. Industry Strategy Analysis: Digital Humans in Retail
+*   **Role:** Core Analyst & Report Integration Lead
+*   **Description:** Led the completion of an in-depth strategic analysis report on the application of "Digital Humans" in the retail industry. Applied high-level theoretical frameworks like "Distributed Innovation" and "API Platform Strategy" to dissect the innovation models of top-tier companies. Was responsible for structuring the comparative analysis and ensuring the report's systemic integrity.
+
+#### 8. Distributed Medical Microservices System
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Langchain4j](https://img.shields.io/badge/Langchain4j-444444)
+
+*   **Role:** Agile Project Manager & Core Backend Developer
+*   **Link:** [GitHub](https://github.com/Jackela/ELEC5620-Doctor-Service)
+*   **Description:** Co-developed a serverless AI medical microservices system using AWS Lambda and Langchain4j. As the Agile PM, used Jira to improve team efficiency by ~15%. The architecture splits the system into Doctor and Patient services, following "Single Responsibility" and "Database-per-Service" patterns.
+
+#### 9. Distributed Store Platform (Saga Pattern Implementation)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-000000?logo=grpc&logoColor=white)
+
+*   **Role:** Architect & Core Backend Developer
+*   **Link:** [GitHub](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
+*   **Description:** Designed and implemented a full-stack e-commerce platform on a microservices architecture. Solved the distributed transaction problem by manually designing and implementing the Saga pattern to ensure eventual consistency across services.
+
+#### 10. Mathematical Modeling: Adaptive Hybrid Randomized Algorithm
+*   **Role:** Independent Researcher & Algorithm Engineer
+*   **Link:** [GitHub](https://github.com/Jackela/CS29)
+*   **Description:** Designed and implemented an innovative adaptive hybrid randomized algorithm for the two-level ski-rental problem in online optimization. Combined rigorous theoretical proofs (potential function analysis) with large-scale experimental validation (Monte Carlo simulations).
+
+#### 11. Online Shopping Platform (MERN Stack)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+
+*   **Role:** Core Developer
+*   **Link:** [GitHub](https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase)
+*   **Description:** Built and delivered a feature-complete full-stack e-commerce prototype using the MERN stack. Implemented the MVVM design pattern on the frontend using custom ViewModel Hooks to effectively separate UI logic from the view layer.
 
 ---
 
-### About Me
-I am a multifaceted engineer with a strong background in computer science and a forward-thinking approach to product architecture, driven by the belief that the best products arise from the convergence of technical depth and human-centric empathy. My mental models are shaped by extensive and interdisciplinary systematic reading (over 3300 hours and 863 books since 2019), which has allowed me to build a "T-shaped" knowledge structure with depth in computer science and breadth in the humanities and social sciences. This enables me to understand technology from first principles and, more importantly, to grasp the essence of user and business needs to find innovative solutions to complex problems. I am eager to join a top-tier team where I can combine my passion for technology, curiosity for products, and interdisciplinary thinking to create products that deliver immense value to users and society.
+### Experience
+
+**Beijing Vision Control Group** (Jun 2023 - Aug 2023)
+*   **Role:** AI Team Intern
+*   **Contributions:** Engineered a Java utility class to bridge the main Java business logic with Python AI services, reducing module integration time from days to hours. Led an internal technical training session on Large Language Models (LLMs).
+
+**Romney Optoelectronics System Technology (Guangdong) Co., Ltd.** (May 2022 - Jul 2022)
+*   **Role:** Engineering Assistant Intern
+*   **Contributions:** Assisted in the execution and follow-up of engineering project tasks, gaining experience in teamwork and communication in an engineering environment.
+
+---
+
+### Profile
+I am a multifaceted engineer with a strong background in computer science and a forward-thinking approach to product architecture, driven by the belief that the best products arise from the convergence of technical depth and human-centric empathy.
+
+My mental models are shaped by extensive and interdisciplinary systematic reading (over 3300 hours and 863 books since 2019), which has allowed me to build a "T-shaped" knowledge structure with depth in computer science and breadth in the humanities and social sciences. This enables me to understand technology from first principles and, more importantly, to grasp the essence of user and business needs to find innovative solutions to complex problems.
+
+I am eager to join a top-tier team where I can combine my passion for technology, curiosity for products, and interdisciplinary thinking to create products that deliver immense value to users and society.
