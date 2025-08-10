@@ -50,7 +50,7 @@
 #### 2. 个人独立项目：AI招聘文员 (AI Recruitment Clerk)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![Microservices](https://img.shields.io/badge/Microservices-Architecture-blue)
 *   **角色:** 产品设计者 & 全栈开发者
-*   **项目链接:** [GitHub](https://github.com/Jackela/ai-recruitment-clerk)
+*   **项目链接:** [GitHub](https://github.com/Jackela/AI-Recruitment-Clerk)
 *   **描述:** 主导设计并开发AI驱动的自动化招聘辅助平台。独立撰写BRD/PRD/SRS全套产品文档。技术上采用微服务架构（Angular + NestJS网关），连接多个独立的AI服务。
 
 #### 3. 个人独立项目：AI增强PDF学术工具
@@ -82,26 +82,27 @@
 *   **描述:** 作为核心成员及整合负责人，主导完成了一份关于“数字人”在零售行业应用的深度战略分析报告。运用“分布式创新”和“API平台战略”等高阶理论框架，深度剖析了顶级企业的不同创新模式。
 
 #### 8. 分布式医疗微服务系统
-![Java](https://img.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Agile](https://img.io/badge/Agile-Jira-blue)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Agile](https://img.shields.io/badge/Agile-Jira-blue)
 *   **角色:** Agile项目经理 & 核心后端开发者
 *   **项目链接:** [GitHub](https://github.com/Jackela/ELEC5620-Doctor-Service)
 *   **描述:** 在三人团队中，基于AWS Lambda和Langchain4j，共同开发了一个无服务器化的AI医疗微服务系统。作为团队的Agile项目经理，使用Jira进行需求排期、任务分解和迭代跟踪，将团队协作效率提升了约15%。
 
 #### 9. 分布式商店平台 (Saga模式实现)
-![Java](https://img.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![Saga Pattern](https://img.io/badge/Saga-Pattern-blue)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![Saga Pattern](https://img.shields.io/badge/Saga-Pattern-blue)
 *   **角色:** 架构师 & 核心后端开发者
-*   **项目链接:** [GitHub](https://img.io/badge/Saga-Pattern-blue)
+*   **项目链接:** [GitHub](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
 *   **描述:** 负责设计并实现一个基于微服务架构的全栈电子商务平台。为解决分布式系统中跨服务的数据一致性难题，深入研究并手动设计、实现了Saga模式，确保了关键业务场景下的数据最终一致性。
 
 #### 10. 数学建模项目：自适应混合随机算法
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Algorithm](https://img.shields.io/badge/Algorithm-Optimization-blue)
 *   **角色:** 独立研究员与算法工程师
-*   **项目链接:** [GitHub](https://img.io/badge/Saga-Pattern-blue)
+*   **项目链接:** [GitHub](https://github.com/Jackela/COMP3608-Algorithm-Project)
 *   **描述:** 针对在线优化中的两级滑雪租赁问题，设计并实现了一种创新的自适应混合随机算法。结合了严格的理论推导（势函数分析）与大规模的实验验证（蒙特卡洛模拟）。
 
 #### 11. 在线购物平台 (MERN Stack)
-![React](https://img.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.io/badge/Node.js-43853D?logo=node.js&logoColor=white) ![MVVM](https://img.io/badge/MVVM-Architecture-blue)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white) ![MVVM](https://img.shields.io/badge/MVVM-Architecture-blue)
 *   **角色:** 核心开发者
-*   **项目链接:** [GitHub](https://img.io/badge/MVVM-Architecture-blue)
+*   **项目链接:** [GitHub](https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase)
 *   **描述:** 运用MERN技术栈，构建并交付了一个功能完善的全栈电子商务平台原型。前端采用了MVVM设计模式。
 
 ---
