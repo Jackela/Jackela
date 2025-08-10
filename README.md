@@ -22,12 +22,10 @@
 
 以下书籍对我构建“T型知识结构”产生了深远影响，塑造了我对创新、系统和决策的看法。
 
-<p align="center">
-  <a href="https://www.goodreads.com/book/show/22572.The_Innovator_s_Dilemma"><img src="https://images.gr-assets.com/books/1430064648l/22572.jpg" width="150" alt="The Innovator's Dilemma"></a>
-  <a href="https://www.goodreads.com/book/show/7021.Crossing_the_Chasm"><img src="https://images.gr-assets.com/books/1347348983l/7021.jpg" width="150" alt="Crossing the Chasm"></a>
-  <a href="https://www.goodreads.com/book/show/11772.Thinking_Fast_and_Slow"><img src="https://images.gr-assets.com/books/1348858223l/11772.jpg" width="150" alt="Thinking, Fast and Slow"></a>
-  <a href="https://www.goodreads.com/book/show/382594.Thinking_in_Systems"><img src="https://images.gr-assets.com/books/1435828458l/382594.jpg" width="150" alt="Thinking in Systems"></a>
-</p>
+*   **《创新者的窘境》** (The Innovator's Dilemma) - *Clayton Christensen*
+*   **《跨越鸿沟》** (Crossing the Chasm) - *Geoffrey Moore*
+*   **《思考，快与慢》** (Thinking, Fast and Slow) - *Daniel Kahneman*
+*   **《系统之美》** (Thinking in Systems) - *Donella H. Meadows*
 
 ---
 
