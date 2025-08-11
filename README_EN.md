@@ -1,114 +1,202 @@
-# Weixuan Kong - Personal Portfolio
+# Weixuan Kong (孔维轩) - T-Shaped Thinker | AI Product Builder
 
-Hello! I am a multifaceted and passionate engineer with a firm belief that the most exceptional products are born at the intersection of deep technical expertise and a human-centric perspective. I possess a strong foundation in computer science and a forward-thinking approach to product architecture, with a passion for building highly available, scalable, and impactful software systems.
-
-*   **Email:** `Jackkong29@Gmail.com`
-*   **GitHub:** `github.com/Jackela`
-
----
-
-### Core Competencies
-
-| Category | Skills |
-| :--- | :--- |
-| **Programming Languages** | `Java`, `Python`, `JavaScript/TypeScript`, `C#`, `SQL` |
-| **Frameworks & Libraries** | `FastAPI`, `Spring Boot`, `React`, `Node.js`, `Next.js`, `PyTorch`, `LlamaIndex`, `Haystack`, `Langchain4j` |
-| **Databases** | `MySQL`, `PostgreSQL`, `MongoDB`, `SQLite`, `DynamoDB`, `Milvus`, `ChromaDB` |
-| **Cloud-Native & DevOps** | `AWS (Lambda, S3, API Gateway)`, `Docker`, `Kubernetes`, `Terraform`, `Git`, `CI/CD (GitHub Actions)` |
-| **Architecture & Methodologies** | `Domain-Driven Design (DDD)`, `Agile/Jira`, `Microservices`, `Distributed Systems`, `RAG`, `MoSCoW`, `Serverless`, `MVVM`, `SOLID`, `Configuration-Driven Design` |
+> I am a committed "First-Principles" thinker with a solid computer science foundation and forward-looking product architecture mindset. My mental model has benefited from long-term, interdisciplinary systematic reading. Since 2019, I have invested over 3,300 hours reading 863 books, building a "T-shaped knowledge structure" with computer science as depth and humanities and social sciences as breadth.
+> 
+> This structure has been deeply inspired by management thinkers like **Clayton Christensen**, **Joseph Schumpeter**, and **Geoffrey Moore**. I firmly believe that for our generation of engineers, true opportunities lie not in simply optimizing existing markets (sustaining innovation), but in understanding technology as an engine of "creative destruction"—building new, simpler, and more accessible value networks (**disruptive innovation**) for the silent majority overlooked by mature technology stacks, and helping excellent products successfully **"cross the chasm"**.
+> 
+> All my personal projects are clumsy but sincere explorations of this belief.
 
 ---
 
-### Projects
+### Core Methodology: First-Principles Thinking
 
-#### 1. CAPSTONE: Casual Academic Time Allocation Management System
+The starting point of all my product work is returning to the essence of "First-Principles" thinking. In the AI product field, I've discovered that applying this mindset thoroughly naturally produces what I personally call a **"Systemic Empathy"** practice framework:
+
+To return to the first principle of "user value," I must simultaneously empathize with the three core systems that support this value:
+
+*   **Technical System Empathy:** Respecting the vitality of architecture, treating code as a long-term asset. I pursue not only functional implementation but also system simplicity, scalability, and maintainability, taking responsibility for the system's long-term health.
+*   **Business System Empathy:** Understanding that technical decisions ultimately serve business objectives. I pursue clear, quantifiable results, driving growth, reducing costs, or creating strategic advantages through technical means, being responsible for business success.
+*   **User System Empathy:** Deeply exploring the 'first principles' of user problems rather than staying at surface requirements. I believe that the deepest empathy for users will ultimately be reflected through an elegant, reliable, and easy-to-use product architecture.
+
+---
+
+### Intellectual Cornerstones
+
+The following books have profoundly influenced my "T-shaped knowledge structure," shaping my views on innovation, systems, and decision-making:
+
+*   **"The Innovator's Dilemma"** - *Clayton Christensen*
+*   **"Capitalism, Socialism and Democracy"** - *Joseph Schumpeter*
+*   **"Crossing the Chasm"** - *Geoffrey Moore*
+*   **"Thinking in Systems"** - *Donella H. Meadows*
+
+---
+
+### 📚 Exploration & Practice
+
+I am dedicated to putting theoretical thinking into practice. All my projects revolve around one core question: How to build elegant, reliable, and evolvable technical systems for "non-consumers" and "new markets."
+
+* **[🏠 View My Philosophy & Portfolio](https://jackela.github.io/Jackela/)**
+* **[📄 Download My Complete Resume](https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf)**
+
+---
+
+## 💭 My Thoughts and Explorations
+
+In-depth articles exploring the intersection of product thinking, disruptive innovation theory, and personal growth:
+
+- **[From Campus to Career: Injecting "Product Soul" into Your Personal Projects](https://jackela.github.io/Jackela/article-product-soul.html)**  
+  *How to move from "feature stacking" to "finding the North Star," crafting personal projects with real value*
+
+- **[Treating Interviews as Products: An Iterative Exploration of "Candidate-Market Fit"](https://jackela.github.io/Jackela/article-candidate-market-fit.html)**  
+  *Using product thinking to reexamine the job search process, building a "Minimum Viable Narrative" practice retrospective*
+
+- **[Glimmers of Theory: How I Explore AI-Era "Disruptive Innovation" Paths in Personal Projects](https://jackela.github.io/Jackela/article-disruptive-innovation.html)**  
+  *Practicing Christensen's theory in personal projects, seeking opportunities for "low-end market disruption" and "new market disruption"*
+
+---
+
+## 🚀 Featured Projects
+
+### CAPSTONE Final Project: Casual Academic Staff Time Management System
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![DDD](https://img.shields.io/badge/DDD-Architecture-blue)
 
-*   **Role:** Product Owner & Architect
-*   **Description:** Currently leading the project as both Product Owner and Architect to solve internal timesheet management and financial auditing challenges. The architecture is a "Modular Monolith" leveraging DDD and clear Bounded Contexts, with the "Strangler Fig Pattern" in mind for a smooth future evolution to microservices. Systematically justified technology choices via a 20+ page technical and strategic memo.
+**Role:** Product Owner & Architect
 
-#### 2. AI Recruitment Clerk
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+Independently served dual roles as Product Owner and Architect for a project aimed at solving enterprise internal time management and financial audit pain points through digital systems. During the planning phase, used MoSCoW method to define and manage MVP feature priorities. Architecturally planned to adopt "modular monolith" architecture using DDD and clear bounded contexts, leveraging the "Strangler Fig Pattern" to establish a solid foundation for future smooth evolution to microservices.
 
-*   **Role:** Product Designer & Full-Stack Developer
-*   **Link:** [GitHub](https://github.com/Jackela/ai-recruitment-clerk)
-*   **Description:** Led the design and development of an AI-driven recruitment platform. Independently authored a full suite of product documents (BRD, PRD, SRS). The technical architecture is based on microservices (Angular + NestJS Gateway) connecting multiple AI services (resume parsing, JD extraction, report generation), containerized with Docker.
+---
 
-#### 3. AI Enhanced PDF Scholar
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?logo=websocket&logoColor=white)
+### AI Recruitment Clerk
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) ![Microservices](https://img.shields.io/badge/Microservices-Architecture-blue)
 
-*   **Role:** Independent Developer & Product Designer
-*   **Links:** [GitHub (App)](https://github.com/Jackela/ai_enhanced_pdf_scholar), [GitHub (Server)](https://github.com/Jackela/mcp-academic-rag-server)
-*   **Description:** Developed a production-grade, intelligent document management platform. Integrated LlamaIndex/Haystack and Gemini API for smart Q&A on PDFs (including scanned ones). The backend features a modular, asynchronous processing pipeline with pluggable processors (OCR, structuring, vectorization). The system is fully containerized, has a comprehensive test suite, and uses GitHub Actions for CI/CD.
+**Role:** Product Designer & Full-Stack Developer  
+**Project Link:** [GitHub](https://github.com/Jackela/AI-Recruitment-Clerk)
 
-#### 4. Novel-Engine (Multi-Agent Interactive Fiction Generator)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E44AD?logo=google&logoColor=white)
+Led the design and development of an AI-driven automated recruitment assistance platform. Independently authored complete BRD/PRD/SRS product documentation. Technically adopted microservices architecture (Angular + NestJS gateway) connecting multiple independent AI services.
 
-*   **Role:** Independent Developer & Systems Architect
-*   **Link:** [GitHub](https://github.com/Jackela/Novel-Engine)
-*   **Description:** Built a multi-agent AI narrative simulation system in the Warhammer 40K universe. Designed a collaborative system with Director, Persona, and Chronicler agents. Optimized performance by over 85% with a "Sacred Cache Protocol" using LRU and SHA256 hashing. Implemented production-grade features like thread-safety, graceful degradation, and a tiered logging system.
+**Innovation Insight:** Practicing "low-end market disruption" theory, providing "just right" resume-JD matching core value for small and micro enterprises "over-served" by large ATS systems.
 
-#### 5. Deep Learning Text Classification Framework
+---
+
+### AI Enhanced PDF Academic Tool
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+
+**Role:** Independent Developer & Product Designer  
+**Project Links:** [App](https://github.com/Jackela/ai_enhanced_pdf_scholar) | [Server](https://github.com/Jackela/mcp-academic-rag-server)
+
+Developed a production-grade intelligent academic literature management platform. Integrated LlamaIndex/Haystack and Google Gemini API to achieve intelligent Q&A for PDFs (including scanned versions). Backend adopts highly modular asynchronous processing pipelines.
+
+**Innovation Insight:** Exploring "new market disruption," transitioning from traditional "reading" behavior to "conversational analysis," creating entirely new performance dimensions.
+
+---
+
+### Novel-Engine (Multi-Agent Interactive Novel Generator)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Multi-Agent](https://img.shields.io/badge/Multi_Agent-System-blue)
+
+**Role:** Independent Developer & System Architect  
+**Project Link:** [GitHub](https://github.com/Jackela/Novel-Engine)
+
+A multi-agent AI narrative simulation system based on the Warhammer 40K universe. Built an agent collaboration system containing Director, Persona, and Chronicler roles. Through LRU and SHA256 hash caching ("Sacred Cache Protocol"), avoided over 85% of redundant API calls. Implemented thread-safe concurrent processing, graceful degradation, and comprehensive hierarchical logging system.
+
+---
+
+### Deep Learning Text Classification Framework
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=white)
 
-*   **Role:** Independent Researcher & Software Engineer
-*   **Link:** [GitHub](https://github.com/Jackela/Project5)
-*   **Description:** Accurately reproduced the results of the VDCNN and DenseNet papers and refactored them into a production-grade experimental framework. Employed a "configuration-as-code" philosophy using YAML files to drive the entire workflow. The architecture strictly follows SOLID principles and the Factory Pattern for high extensibility.
+**Role:** Independent Researcher & Software Engineer  
+**Project Link:** [GitHub](https://github.com/Jackela/Project5)
 
-#### 6. Cloud-Native AI Image Annotation System
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?logo=aws-cloudformation&logoColor=white)
-
-*   **Role:** Independent Developer & Architect
-*   **Link:** [GitHub](https://github.com/Jackela/COMP5349)
-*   **Description:** Independently designed and deployed a complete event-driven, serverless system for large-scale AI image annotation. Reduced batch processing latency from 45s to 8s (-82%) using AWS S3 Events, EventBridge, and parallel Lambda functions. Orchestrated the entire cloud infrastructure using modular CloudFormation templates (IaC), cutting deployment time from hours to 15 minutes.
-
-#### 7. Industry Strategy Analysis: Digital Humans in Retail
-*   **Role:** Core Analyst & Report Integration Lead
-*   **Description:** Led the completion of an in-depth strategic analysis report on the application of "Digital Humans" in the retail industry. Applied high-level theoretical frameworks like "Distributed Innovation" and "API Platform Strategy" to dissect the innovation models of top-tier companies. Was responsible for structuring the comparative analysis and ensuring the report's systemic integrity.
-
-#### 8. Distributed Medical Microservices System
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![Langchain4j](https://img.shields.io/badge/Langchain4j-444444)
-
-*   **Role:** Agile Project Manager & Core Backend Developer
-*   **Link:** [GitHub](https://github.com/Jackela/ELEC5620-Doctor-Service)
-*   **Description:** Co-developed a serverless AI medical microservices system using AWS Lambda and Langchain4j. As the Agile PM, used Jira to improve team efficiency by ~15%. The architecture splits the system into Doctor and Patient services, following "Single Responsibility" and "Database-per-Service" patterns.
-
-#### 9. Distributed Store Platform (Saga Pattern Implementation)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-000000?logo=grpc&logoColor=white)
-
-*   **Role:** Architect & Core Backend Developer
-*   **Link:** [GitHub](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
-*   **Description:** Designed and implemented a full-stack e-commerce platform on a microservices architecture. Solved the distributed transaction problem by manually designing and implementing the Saga pattern to ensure eventual consistency across services.
-
-#### 10. Mathematical Modeling: Adaptive Hybrid Randomized Algorithm
-*   **Role:** Independent Researcher & Algorithm Engineer
-*   **Link:** [GitHub](https://github.com/Jackela/CS29)
-*   **Description:** Designed and implemented an innovative adaptive hybrid randomized algorithm for the two-level ski-rental problem in online optimization. Combined rigorous theoretical proofs (potential function analysis) with large-scale experimental validation (Monte Carlo simulations).
-
-#### 11. Online Shopping Platform (MERN Stack)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-
-*   **Role:** Core Developer
-*   **Link:** [GitHub](https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase)
-*   **Description:** Built and delivered a feature-complete full-stack e-commerce prototype using the MERN stack. Implemented the MVVM design pattern on the frontend using custom ViewModel Hooks to effectively separate UI logic from the view layer.
+Precisely reproduced VDCNN and DenseNet paper results in text classification and refactored them into a production-grade experimental framework. Adopted "Configuration as Code" core philosophy, driving entire experimental processes through YAML files. Architecture strictly follows SOLID design principles and factory patterns, highly decoupling various modules.
 
 ---
 
-### Experience
+### Cloud-Native AI Image Annotation System
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=aws-lambda&logoColor=white) ![IaC](https://img.shields.io/badge/IaC-CloudFormation-orange)
 
-**Beijing Vision Control Group** (Jun 2023 - Aug 2023)
-*   **Role:** AI Team Intern
-*   **Contributions:** Engineered a Java utility class to bridge the main Java business logic with Python AI services, reducing module integration time from days to hours. Led an internal technical training session on Large Language Models (LLMs).
+**Role:** Independent Developer & Architect  
+**Project Link:** [GitHub](https://github.com/Jackela/COMP5349)
 
-**Romney Optoelectronics System Technology (Guangdong) Co., Ltd.** (May 2022 - Jul 2022)
-*   **Role:** Engineering Assistant Intern
-*   **Contributions:** Assisted in the execution and follow-up of engineering project tasks, gaining experience in teamwork and communication in an engineering environment.
+For large-scale AI image annotation tasks, independently designed and deployed a complete event-driven, serverless system. Using AWS S3 Events, EventBridge, and parallel Lambda functions, successfully reduced single-batch processing latency from 45 seconds to 8 seconds (-82%). Through IaC, used modular CloudFormation templates to reduce complex cloud environment configuration time to 15 minutes.
+
+**Key Achievement:** Achieved "North Star metric" driven system optimization, demonstrating the power of first-principles thinking in engineering practice.
 
 ---
 
-### Profile
-I am a multifaceted engineer with a strong background in computer science and a forward-thinking approach to product architecture, driven by the belief that the best products arise from the convergence of technical depth and human-centric empathy.
+### Distributed Store Platform (Saga Pattern Implementation)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) ![Saga Pattern](https://img.shields.io/badge/Saga-Pattern-blue)
 
-My mental models are shaped by extensive and interdisciplinary systematic reading (over 3300 hours and 863 books since 2019), which has allowed me to build a "T-shaped" knowledge structure with depth in computer science and breadth in the humanities and social sciences. This enables me to understand technology from first principles and, more importantly, to grasp the essence of user and business needs to find innovative solutions to complex problems.
+**Role:** Architect & Core Backend Developer  
+**Project Link:** [GitHub](https://github.com/Jackela/sydney-comp5348-group-project-showcase)
 
-I am eager to join a top-tier team where I can combine my passion for technology, curiosity for products, and interdisciplinary thinking to create products that deliver immense value to users and society.
+Responsible for designing and implementing a full-stack e-commerce platform based on microservices architecture. To solve cross-service data consistency challenges in distributed systems, deeply researched and manually designed and implemented the Saga pattern, ensuring eventual consistency in critical business scenarios.
+
+**Architectural Insight:** Practicing "antifragility" philosophy, building evolvable system architecture that can "cross the chasm."
+
+---
+
+## 💼 Experience
+
+### Beijing Vision Bright Control Group (June 2023 - August 2023)
+**Position:** AI Team Intern
+
+**Core Contributions:**
+- Independently designed and engineered Java utility classes, successfully bridging Java main business with Python AI services, reducing module integration time from days to hours
+- Led internal LLM technical training, promoting team understanding and application of cutting-edge AI technology
+
+### Romney Optoelectronic System Technology (Guangdong) Co., Ltd. (May 2022 - July 2022)
+**Position:** Engineering Assistant Intern
+
+**Core Contributions:**
+- Assisted in executing and following up engineering project tasks, accumulating team collaboration and communication experience
+- Participated in preliminary research and requirement analysis for manufacturing digital transformation projects
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+### Core Technical Capabilities
+- **Backend Development:** Java/Spring Boot, Python/FastAPI, Node.js/NestJS
+- **Frontend Development:** React, Angular, TypeScript, Responsive Design
+- **Architecture Design:** Microservices Architecture, DDD Domain-Driven Design, Saga Pattern, Event-Driven Architecture
+- **Cloud Services:** AWS (Lambda, S3, EventBridge, CloudFormation), Serverless Architecture
+- **AI/ML:** LangChain, LlamaIndex, RAG Technology, Multi-Agent Systems
+
+### Product & Management Capabilities
+- **Product Thinking:** First-Principles Thinking, Disruptive Innovation Theory, Systemic Empathy Framework
+- **Project Management:** Agile Development (Scrum), MoSCoW Method, Product Requirements Documents (PRD/BRD/SRS)
+- **Design Thinking:** User Experience Design, API Design, System Architecture Design
+
+### Academic Research Capabilities
+- **Theoretical Foundation:** Algorithm Design and Analysis, Deep Learning, Distributed Systems
+- **Empirical Research:** Paper Reproduction, Experimental Design, Data Analysis and Visualization
+- **Knowledge Integration:** Interdisciplinary Thinking, Theory-Practice Integration, Systematic Literature Review
+
+---
+
+## 🌟 Core Strengths
+
+### 🧠 T-Shaped Thinking Architect
+Combining deep technical expertise with broad humanities and social sciences perspective, capable of systematic thinking about complex problems.
+
+### 🚀 Disruptive Innovation Practitioner
+Well-versed in Christensen's theory, skilled at identifying and building innovative solutions serving "non-consumers."
+
+### ⚡ First-Principles Engineer
+Insisting on starting from fundamental problems, building elegant, reliable, and evolvable technical systems.
+
+### 📚 Lifelong Learning Advocate
+5 years of 3,300 hours of interdisciplinary reading practice, continuously updating knowledge structure to respond to technological changes.
+
+---
+
+## 📞 Contact
+
+- **GitHub:** [@Jackela](https://github.com/Jackela)
+- **Personal Website:** [jackela.github.io/Jackela](https://jackela.github.io/Jackela/)
+- **Resume Download:** [PDF Version](https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf)
+
+---
+
+> *"Building new, simpler, and more accessible value networks for the overlooked majority"*
+> 
+> *"为那些被忽略的大多数，构建全新的、更简单、更可及的价值网络"*
