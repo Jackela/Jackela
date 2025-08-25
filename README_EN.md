@@ -72,21 +72,31 @@ Independently served dual roles as Product Owner and Architect for a project aim
 **Role:** Product Designer & Full-Stack Developer  
 **Project Link:** [GitHub](https://github.com/Jackela/AI-Recruitment-Clerk)
 
-Led the design and development of an AI-driven automated recruitment assistance platform. Independently authored complete BRD/PRD/SRS product documentation. Technically adopted microservices architecture (Angular + NestJS gateway) connecting multiple independent AI services.
+Led the design and development of an AI-driven automated recruitment assistance platform, centered around a comprehensive suite of AI microservices that provide end-to-end recruitment functionalities, including intelligent resume screening, precise job description matching, and automated candidate communication. Independently authored the full set of BRD/PRD/SRS documentation, from business requirements to product and software specifications. The technical architecture is based on a microservices model with a NestJS gateway and an Angular front-end, decoupling and connecting multiple independent AI functional modules.
 
-**Innovation Insight:** Practicing "low-end market disruption" theory, providing "just right" resume-JD matching core value for small and micro enterprises "over-served" by large ATS systems.
+**Business Insight:** This project aims to practice Clayton Christensen's 'Low-End Market Disruption' theory by providing a 'just-right', cost-effective core value of resume-JD matching, targeting the small and medium-sized enterprise market that is 'over-served' by feature-bloated and expensive traditional Applicant Tracking Systems (ATS).
 
 ---
 
 ### AI Enhanced PDF Academic Tool
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 **Role:** Independent Developer & Product Designer  
-**Project Links:** [App](https://github.com/Jackela/ai_enhanced_pdf_scholar) | [Server](https://github.com/Jackela/mcp-academic-rag-server)
+**Project Link:** [GitHub](https://github.com/Jackela/ai_enhanced_pdf_scholar)
 
-Developed a production-grade intelligent academic literature management platform. Integrated LlamaIndex/Haystack and Google Gemini API to achieve intelligent Q&A for PDFs (including scanned versions). Backend adopts highly modular asynchronous processing pipelines.
+An intelligent platform that transforms the academic research workflow, freeing researchers from tedious PDF reading and management. It provides a unified, searchable library where users can converse with their documents using natural language to get instant answers and summaries, and automatically discover citation networks. This project primarily serves as the front-end application, providing an intuitive user experience.
 
-**Innovation Insight:** Exploring "new market disruption," transitioning from traditional "reading" behavior to "conversational analysis," creating entirely new performance dimensions.
+**Business Insight:** This project is an exploration of 'New Market Disruption' theory, aiming to upgrade the user's interaction with literature from a traditional, one-way 'reading' model to a two-way 'conversational analysis,' thereby creating a new performance dimension for literature research and knowledge acquisition.
+
+---
+
+### MCP Academic RAG Server
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-1.0-purple.svg) ![RAG](https://img.shields.io/badge/RAG-Architecture-blue)
+
+**Role:** Independent Developer & System Architect  
+**Project Link:** [GitHub](https://github.com/Jackela/mcp-academic-rag-server)
+
+An enterprise-grade, MCP (Model Context Protocol) compatible back-end service designed for academic document processing and Retrieval-Augmented Generation (RAG). It provides a complete suite of document analysis, intelligent querying, and real-time monitoring capabilities, with support for multiple AI models including OpenAI, Anthropic, and Google. This server can function as a standalone back-end, providing powerful academic RAG capabilities to any MCP-compliant client.
 
 ---
 
@@ -96,7 +106,7 @@ Developed a production-grade intelligent academic literature management platform
 **Role:** Independent Developer & System Architect  
 **Project Link:** [GitHub](https://github.com/Jackela/Novel-Engine)
 
-A multi-agent AI narrative simulation system based on the Warhammer 40K universe. Built an agent collaboration system containing Director, Persona, and Chronicler roles. Through LRU and SHA256 hash caching ("Sacred Cache Protocol"), avoided over 85% of redundant API calls. Implemented thread-safe concurrent processing, graceful degradation, and comprehensive hierarchical logging system.
+A sophisticated AI-powered narrative generation system that creates immersive interactive stories through intelligent character agents and dynamic storytelling. Support any fictional universe or original settings.
 
 ---
 

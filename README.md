@@ -72,21 +72,31 @@
 **角色:** 产品设计者 & 全栈开发者  
 **项目链接:** [GitHub](https://github.com/Jackela/AI-Recruitment-Clerk)
 
-主导设计并开发AI驱动的自动化招聘辅助平台。独立撰写BRD/PRD/SRS全套产品文档。技术上采用微服务架构（Angular + NestJS网关），连接多个独立的AI服务。
+主导设计并开发了一款AI驱动的自动化招聘辅助平台，其核心是一套完整的AI微服务系统，提供包括简历智能筛选、职位描述精准匹配及自动化应聘者沟通在内的全链路招聘功能。独立完成了从商业需求到产品功能及软件需求的BRD/PRD/SRS全套文档撰写。技术架构上，采用基于NestJS网关和Angular前端的微服务模式，解耦并连接了多个独立的AI功能模块。
 
-**创新洞察:** 实践"低端市场破坏"理论，针对被大型ATS"过度服务"的小微企业，提供"刚刚好"的简历-JD匹配度核心价值。
+**商业洞察:** 本项目旨在实践克莱顿·克里斯坦森的“低端市场破坏”理论，通过提供“刚刚好”的、高性价比的简历与JD匹配核心价值，服务于那些被功能臃肿、价格昂贵的传统ATS（申请人追踪系统）“过度服务”的小微企业市场。
 
 ---
 
-### AI增强PDF学术工具
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+### AI增强PDF学术工具 (AI Enhanced PDF Academic Tool)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 
 **角色:** 独立开发者与产品设计者  
-**项目链接:** [App](https://github.com/Jackela/ai_enhanced_pdf_scholar) | [Server](https://github.com/Jackela/mcp-academic-rag-server)
+**项目链接:** [GitHub](https://github.com/Jackela/ai_enhanced_pdf_scholar)
 
-开发生产级的智能学术文献管理平台。集成LlamaIndex/Haystack和Google Gemini API，实现对PDF（包括扫描版）的智能问答。后端采用高度模块化的异步处理流水线。
+一个智能化学术研究平台，旨在将研究者从繁琐的PDF阅读和管理中解放出来。它提供了一个统一的、可搜索的文献库，用户可以通过自然语言与自己的文档进行对话，快速获得答案和摘要，并自动发现文献之间的引用关系。该项目主要作为前端应用，为用户提供直观的交互体验。
 
-**创新洞察:** 探索"新市场破坏"，从传统的"阅读"行为跃迁至"对话式分析"，创造全新的性能维度。
+**商业洞察:** 本项目是对“新市场破坏”理论的一次探索，旨在将用户与文献的交互方式从传统的单向“阅读”升级为双向的“对话式分析”，从而创造出全新的文献研究与知识获取的性能维度。
+
+---
+
+### MCP学术RAG服务器 (MCP Academic RAG Server)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-1.0-purple.svg) ![RAG](https://img.shields.io/badge/RAG-Architecture-blue)
+
+**角色:** 独立开发者与系统架构师  
+**项目链接:** [GitHub](https://github.com/Jackela/mcp-academic-rag-server)
+
+一个企业级的、兼容MCP（模型上下文协议）的后端服务，专为学术文档处理和检索增强生成（RAG）而设计。它提供了一套完整的文档分析、智能查询和实时监控功能，并支持包括OpenAI、Anthropic和Google在内的多种AI模型。该服务器可作为独立的后端，为任何兼容MCP的客户端提供强大的学术RAG能力。
 
 ---
 
@@ -96,7 +106,7 @@
 **角色:** 独立开发者与系统架构师  
 **项目链接:** [GitHub](https://github.com/Jackela/Novel-Engine)
 
-A sophisticated AI-powered narrative generation system that creates immersive interactive stories through intelligent character agents and dynamic storytelling. Support any fictional universe or original settings.
+一个先进的AI驱动的叙事生成系统，通过智能角色代理和动态故事叙述，创造出身临其境的互动故事。支持任何虚构宇宙或原创设定。
 
 ---
 
