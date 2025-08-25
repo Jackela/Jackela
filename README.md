@@ -96,7 +96,7 @@
 **角色:** 独立开发者与系统架构师  
 **项目链接:** [GitHub](https://github.com/Jackela/Novel-Engine)
 
-一个基于《战锤40K》宇宙的多智能体AI叙事模拟系统。构建了包含Director, Persona, Chronicler三种角色的智能体协作系统。通过LRU与SHA256哈希缓存（"神圣缓存协议"）避免了超过85%的重复API调用。实现了线程安全的并发处理、优雅降级和全面的分级日志系统。
+A sophisticated AI-powered narrative generation system that creates immersive interactive stories through intelligent character agents and dynamic storytelling. Support any fictional universe or original settings.
 
 ---
 
