@@ -1,304 +1,64 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>孔维轩：第一性原理产品构建实践</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>孔维轩 | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Minimal layout without relying on old sections */
+    body { max-width: 880px; margin: 0 auto; padding: 32px 20px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif; color: #1f2328; }
+    header h1 { margin: 0 0 6px; font-size: 2rem; }
+    header p { margin: 0 0 16px; color: #59636e; }
+    .nav { display: flex; gap: 12px; margin-bottom: 28px; }
+    .nav a { text-decoration: none; color: #0366d6; }
+    section { margin: 28px 0; }
+    h2 { font-size: 1.25rem; margin-bottom: 12px; }
+    .card { border: 1px solid #e6ebf1; border-radius: 8px; padding: 16px; background: #fff; }
+    .muted { color: #6b7280; }
+  </style>
+  <meta name="description" content="孔维轩（Weixuan Kong）——专注后端与系统架构，聚焦 AI 应用的工程化与交付。" />
 </head>
 <body>
-    <header>
-        <h1>孔维轩 (Weixuan Kong)</h1>
-        <p class="subtitle">T型思想者 | AI产品构建者 | 第一性原理实践者</p>
-        <nav class="header-nav">
-            <a href="https://github.com/Jackela" target="_blank" class="nav-link">GitHub Profile</a>
-            <a href="https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf" target="_blank" class="nav-link">下载简历</a>
-        </nav>
-    </header>
+  <header>
+    <h1>孔维轩（Weixuan Kong）</h1>
+    <p class="muted">后端与系统架构 · 聚焦 AI 应用工程化与交付</p>
+    <div class="nav">
+      <a href="https://github.com/Jackela" target="_blank">GitHub</a>
+      <a href="https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf" target="_blank">下载简历（PDF）</a>
+    </div>
+  </header>
 
-    <main>
-        <section class="about-section">
-            <h2>关于我 (About Me)</h2>
-            <div class="about-content">
-                <p>我是一名坚定的"第一性原理"思考者，拥有扎实的计算机科学背景与前瞻的产品架构思维。我的思维模型，受益于长期且跨学科的系统性阅读。自2019年以来，我投入了超过3300小时，阅读了863本书籍，这让我构建了以计算机科学为深度，人文社科为广度的"T型知识结构"。</p>
-                
-                <p>这种结构让我深受 <strong>Clayton Christensen</strong>、<strong>Joseph Schumpeter</strong> 及 <strong>Geoffrey Moore</strong> 等管理思想的启发。我坚信，对于我们这一代工程师而言，真正的机遇并非简单优化现有市场（维持性创新），而是要理解技术作为"创造性破坏"的引擎，去为那些被成熟技术栈所忽略的、沉默的大多数，构建全新的、更简单、更可及的价值网络（<strong>破坏性创新</strong>），并帮助优秀的产品成功<strong>"跨越鸿沟"</strong>。</p>
-                
-                <p>我的所有个人项目，都是我对这一信念的笨拙但真诚的探索。我致力于将理论思考付诸实践，围绕一个核心问题：如何为"非消费者"和"新市场"构建优雅、可靠且可进化的技术系统。</p>
+  <main>
+    <section>
+      <h2>关于我</h2>
+      <div class="card">
+        <p>软件工程师（后端/系统架构）。关注把 AI 应用做稳、简单、可维护。近期在做多智能体与 RAG 的工程实现。</p>
+      </div>
+    </section>
 
-                <div class="methodology-box">
-                    <h4>核心方法论：系统性共情 (Systemic Empathy)</h4>
-                    <p>我所有产品工作的出发点，是回归事物本质的"第一性原理"思考。为了回归"用户价值"这个第一性原理，我必须同时去共情支撑这个价值的三个核心系统：</p>
-                    <ul>
-                        <li><strong>技术系统共情 (Empathy with the Technical System)：</strong>尊重架构的生命力，将代码视作一种长期资产。我追求的不仅是功能实现，更是系统的简洁、可扩展和可维护性，为系统的长期健康负责。</li>
-                        <li><strong>商业系统共情 (Empathy with the Business System)：</strong>理解技术决策最终要服务于商业目标。我追求清晰、可量化的结果，通过技术手段驱动增长、降低成本或创造战略优势，对商业的成功负责。</li>
-                        <li><strong>用户系统共情 (Empathy with the User System)：</strong>深入探究用户问题的'第一性原理'，而非停留在表面需求。我相信，对用户最深的同理心，最终将通过一个优雅、可靠且易于使用的产品架构来体现。</li>
-                    </ul>
-                </div>
+    <section>
+      <h2>项目</h2>
+      <div class="card">
+        <p><strong>CATAMS（临时教职工时间管理系统）</strong></p>
+        <p class="muted">模块化单体；DDD/TDD/DbC 验证框架（覆盖率 > 85%）。</p>
+        <p><a href="https://github.com/Jackela/casual-academic-time-allocation-management-system" target="_blank">GitHub 仓库</a></p>
+      </div>
+      <div class="card" style="margin-top:12px;">
+        <p><strong>Novel‑Engine（多智能体互动小说生成器）</strong></p>
+        <p class="muted">DDD/EDA/CQRS；Kafka 事件流；Saga 协调器实现。</p>
+        <p><a href="https://github.com/Jackela/novel-engine" target="_blank">GitHub 仓库</a></p>
+      </div>
+    </section>
 
-                <div class="intellectual-cornerstones">
-                    <h4>思想基石 (Intellectual Cornerstones)</h4>
-                    <p>以下书籍对我构建"T型知识结构"产生了深远影响，塑造了我对创新、系统和决策的看法：</p>
-                    <ul class="cornerstone-books">
-                        <li><strong>《创新者的窘境》</strong> (The Innovator's Dilemma) - <em>Clayton Christensen</em></li>
-                        <li><strong>《资本主义、社会主义与民主》</strong> (Capitalism, Socialism and Democracy) - <em>Joseph Schumpeter</em></li>
-                        <li><strong>《跨越鸿沟》</strong> (Crossing the Chasm) - <em>Geoffrey Moore</em></li>
-                        <li><strong>《系统之美》</strong> (Thinking in Systems) - <em>Donella H. Meadows</em></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <article class="philosophy-section">
-            <h2>核心哲学：为什么AI产品的第一个用户，必须是产品经理自己？</h2>
-            <p>在阅读Clayton Christensen的《创新者的窘境》时，我深受启发。书中指出，行业的颠覆者，往往不是为现有市场的头部客户提供更好的产品（维持性创新），而是通过更简单、更便宜、更方便的技术，服务于那些被现有市场"过度服务"或完全忽略的"不消费"群体（<strong>破坏性创新</strong>）。</p>
-            <p>我认为，AI技术正是当前时代最强大的"破坏性"引擎。但如何找到真正的"破坏性"机会？传统的用户访谈，在面对一个尚不存在的"新市场"时，往往会失效。因此，我探索出一条路径：产品经理必须首先成为自己产品的"用户零号"，通过第一性原理的思考，去构建一个逻辑自洽的、能解决根本问题的系统，并亲自在其中寻找价值。这是在迷雾中航行的唯一灯塔。</p>
-        </article>
-
-        <hr>
-
-        <article class="practice-section">
-            <h3>实践一："低端市场破坏"——为被忽略者提供"刚刚好"的价值</h3>
-            <blockquote>
-                "破坏性创新的第一个战场，是找到那些因现有解决方案过于昂贵和复杂而'不消费'的客户。" — C. Christensen
-            </blockquote>
-            <p>传统的大型ATS（招聘管理系统）对小微企业和独立猎头来说是"过度服务"。他们不需要复杂的功能，只需要一个能快速判断"简历和岗位是否匹配"的核心工具。</p>
-            <p>我的 <strong><a href="https://github.com/Jackela/AI-Recruitment-Clerk" target="_blank" class="project-link">AI招聘文员</a></strong> 项目，正是基于这一洞察。它放弃了所有花哨的功能，只将RAG技术的能力聚焦在 <code>简历-JD匹配度</code> 这一核心性能维度上。这是一个典型的"低端市场破坏性创新"的尝试：用一个"刚刚好"的、成本极低的解决方案，服务于被忽略的市场。</p>
-        </article>
-        
-        <article class="practice-section">
-            <h3>实践二："新市场破坏"——创造全新的性能维度</h3>
-            <p>对于学术研究者来说，PDF阅读工具的核心价值一直是"阅读"和"标注"。但随着文献数量的爆炸式增长，真正的瓶颈已经变成了"理解"和"连接"。</p>
-            <p>我的 <strong><a href="https://github.com/Jackela/ai_enhanced_pdf_scholar" target="_blank" class="project-link">AI增强PDF学术工具</a></strong> 项目，旨在探索"新市场破坏性创新"的可能性。它通过RAG技术，开创了一个全新的性能维度——<strong>'对话式分析'</strong>。用户不再是单向地"阅读"文献，而是可以与文献进行深度"对话"，让AI总结、提问、甚至发现不同论文之间的隐藏联系。这就为学术研究创造了一个此前不存在的、非消费性的新市场。</p>
-        </article>
-        
-        <article class="practice-section">
-            <h3>方法论沉淀：如何为创新构建"可进化的系统"以"跨越鸿沟"</h3>
-            <blockquote>
-                "高科技产品的市场，存在一个巨大的'鸿沟'，分隔了'早期采纳者'和'主流市场'。" — Geoffrey A. Moore
-            </blockquote>
-            <p>无论是服务低端市场还是新市场，破坏性创新都充满了不确定性。因此，产品的技术架构必须具备极高的"可进化性"，以应对未来"跨越鸿沟"、进入主流市场时所面临的指数级挑战。</p>
-            <p>在我的 <strong><a href="https://github.com/Jackela/sydney-comp5348-group-project-showcase" target="_blank" class="project-link">分布式商店平台</a></strong> 项目中，我在初期就投入巨大成本手动实现Saga模式，这在当时看来是一种"过度工程化"。但这正是我对"可进化系统"的长期承诺。这个看似"过重"的架构，正是为了确保我们的产品在未来有能力"跨越鸿沟"而预先构建的桥梁。</p>
-        </article>
-
-        <hr>
-
-        <section class="articles-section">
-            <h2>我的思考与探索 (My Thoughts and Explorations)</h2>
-            <div class="article-list">
-                <div class="article-card">
-                    <h3>从校园到职场：为你的个人项目注入“产品灵魂”</h3>
-                    <p>我曾经以为，一个布满了最新技术栈、实现了复杂功能的GitHub仓库，就是我通往职场的最佳“敲门砖”。直到有一次，我兴奋地向一位业界前辈展示我最复杂的个人项目时，他问了我一个简单的问题：“所以，你这个项目，解决了谁的什么问题？” 我当时愣住了。我发现，我能滔滔不绝地讲出它的架构，却无法用一句话说清它的“灵魂”。</p>
-                    <a href="article-product-soul.html" target="_blank" class="article-link">阅读全文</a>
-                </div>
-                <div class="article-card">
-                    <h3>将面试视为产品：一次关于“候选人-市场匹配”的迭代探索</h3>
-                    <p>作为一个即将走出校园的应届生，我面临的核心挑战，是如何在一个小时的面试中，清晰、高效地传递我过去几年思考与积累的真实价值。我的简历就像一堆散落的乐高积-积木，虽然每一块都很有趣，但如何将它们拼成一个能打动人的、完整的“作品”？ 我意识到，我不能仅仅是个人信息的“陈述者”，更需要成为自我价值的“产品架构师”。</p>
-                    <a href="article-candidate-market-fit.html" target="_blank" class="article-link">阅读全文</a>
-                </div>
-                <div class="article-card">
-                    <h3>理论的微光：我如何在个人项目中，探索AI时代的“破坏性创新”路径</h3>
-                    <p>作为一个工程师，我曾痴迷于构建技术上“最优”的解。但当我第一次读到Clayton Christensen的《创新者的窘境》时，我意识到，技术的“最优”与市场的“成功”之间，存在着一条巨大的鸿沟。一个在成熟市场中看似完美的“维持性创新”，往往会被一个来自边缘的、技术上“不够好”的“破坏性创新”所颠覆。</p>
-                    <a href="article-disruptive-innovation.html" target="_blank" class="article-link">阅读全文</a>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <article class="skills-section">
-            <h2>核心技能 (Core Competencies)</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>产品思维</h3>
-                    <ul>
-                        <li>第一性原理思考</li>
-                        <li>破坏性创新理论</li>
-                        <li>系统性共情框架</li>
-                        <li>产品架构设计</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>技术架构</h3>
-                    <ul>
-                        <li>微服务架构</li>
-                        <li>DDD领域驱动设计</li>
-                        <li>云原生开发</li>
-                        <li>AI/ML集成</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>开发技术栈</h3>
-                    <ul>
-                        <li>Java/Spring Boot</li>
-                        <li>Python/FastAPI</li>
-                        <li>React/Angular</li>
-                        <li>AWS/云服务</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>项目管理</h3>
-                    <ul>
-                        <li>敏捷开发</li>
-                        <li>产品需求分析</li>
-                        <li>团队协作</li>
-                        <li>技术文档</li>
-                    </ul>
-                </div>
-            </div>
-        </article>
-
-        <hr>
-
-        <article class="projects-archive">
-            <h2>全部项目档案 (Complete Project Archive)</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>CAPSTONE毕业设计：临时学术人员工时管理系统</h3>
-                    <p class="project-role">产品负责人与架构师</p>
-                    <div class="tech-badges">
-                        <span class="badge">Java</span>
-                        <span class="badge">Spring Boot</span>
-                        <span class="badge">DDD</span>
-                    </div>
-                    <p class="project-description">独立承担产品负责人与架构师双重角色，项目旨在通过数字化系统解决企业内部工时管理及财务审计的痛点。在前期规划阶段，采用MoSCoW方法来定义和管理MVP的功能优先级。架构上规划采用"模块化单体"架构，利用DDD和清晰的限界上下文，并借鉴"绞杀榕模式"为未来向微服务平滑演进奠定坚实基础。</p>
-                </div>
-
-                <div class="project-card">
-                    <h3>AI招聘文员 (AI Recruitment Clerk)</h3>
-                    <p class="project-role">产品设计者 & 全栈开发者</p>
-                    <div class="tech-badges">
-                        <span class="badge">NestJS</span>
-                        <span class="badge">Angular</span>
-                        <span class="badge">Microservices</span>
-                    </div>
-                    <p class="project-description">主导设计并开发AI驱动的自动化招聘辅助平台。独立撰写BRD/PRD/SRS全套产品文档。技术上采用微服务架构（Angular + NestJS网关），连接多个独立的AI服务。</p>
-                    <a href="https://github.com/Jackela/AI-Recruitment-Clerk" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>AI增强PDF学术工具</h3>
-                    <p class="project-role">独立开发者与产品设计者</p>
-                    <div class="tech-badges">
-                        <span class="badge">Python</span>
-                        <span class="badge">FastAPI</span>
-                        <span class="badge">React</span>
-                    </div>
-                    <p class="project-description">开发生产级的智能学术文献管理平台。集成LlamaIndex/Haystack和Google Gemini API，实现对PDF（包括扫描版）的智能问答。后端采用高度模块化的异步处理流水线。</p>
-                    <div class="project-links">
-                        <a href="https://github.com/Jackela/ai_enhanced_pdf_scholar" target="_blank" class="project-link">App</a>
-                        <a href="https://github.com/Jackela/mcp-academic-rag-server" target="_blank" class="project-link">Server</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>Novel-Engine (多智能体互动小说生成器)</h3>
-                    <p class="project-role">独立开发者与系统架构师</p>
-                    <div class="tech-badges">
-                        <span class="badge">Python</span>
-                        <span class="badge">Multi-Agent</span>
-                    </div>
-                    <p class="project-description">一个基于《战锤40K》宇宙的多智能体AI叙事模拟系统。构建了包含Director, Persona, Chronicler三种角色的智能体协作系统。通过LRU与SHA256哈希缓存（"神圣缓存协议"）避免了超过85%的重复API调用。实现了线程安全的并发处理、优雅降级和全面的分级日志系统。</p>
-                    <a href="https://github.com/Jackela/Novel-Engine" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>深度学习文本分类框架</h3>
-                    <p class="project-role">独立研究员与软件工程师</p>
-                    <div class="tech-badges">
-                        <span class="badge">Python</span>
-                        <span class="badge">PyTorch</span>
-                        <span class="badge">YAML</span>
-                    </div>
-                    <p class="project-description">精确复现VDCNN和DenseNet两篇顶级深度学习论文的文本分类成果，并将其重构为一个生产级的实验框架。采用"配置即代码"的核心思想，通过YAML文件驱动整个实验流程。架构严格遵循SOLID设计原则和工厂模式，将各模块高度解耦。</p>
-                    <a href="https://github.com/Jackela/Project5" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>云原生AI影像标注系统</h3>
-                    <p class="project-role">独立开发者与架构师</p>
-                    <div class="tech-badges">
-                        <span class="badge">AWS</span>
-                        <span class="badge">Lambda</span>
-                        <span class="badge">IaC</span>
-                    </div>
-                    <p class="project-description">为大规模AI影像标注任务，独立设计并部署了一个完整的事件驱动、无服务器（Serverless）系统。利用AWS S3 Events, EventBridge和并行Lambda函数，成功将单批次处理时延从45秒降至8秒（-82%）。通过IaC，使用模块化的CloudFormation模板将复杂的云环境配置时间缩短至15分钟。</p>
-                    <a href="https://github.com/Jackela/COMP5349" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>行业战略分析报告：零售业中的数字人</h3>
-                    <p class="project-role">核心分析师 & 报告整合负责人</p>
-                    <div class="tech-badges">
-                        <span class="badge">Strategic Analysis</span>
-                        <span class="badge">Innovation Theory</span>
-                    </div>
-                    <p class="project-description">作为核心成员及整合负责人，主导完成了一份关于"数字人"在零售行业应用的深度战略分析报告。运用"分布式创新"和"API平台战略"等高阶理论框架，深度剖析了顶级企业的不同创新模式。</p>
-                </div>
-
-                <div class="project-card">
-                    <h3>分布式医疗微服务系统</h3>
-                    <p class="project-role">Agile项目经理 & 核心后端开发者</p>
-                    <div class="tech-badges">
-                        <span class="badge">Java</span>
-                        <span class="badge">AWS Lambda</span>
-                        <span class="badge">Agile</span>
-                    </div>
-                    <p class="project-description">在三人团队中，基于AWS Lambda和Langchain4j，共同开发了一个无服务器化的AI医疗微服务系统。作为团队的Agile项目经理，使用Jira进行需求排期、任务分解和迭代跟踪，将团队协作效率提升了约15%。</p>
-                    <a href="https://github.com/Jackela/ELEC5620-Doctor-Service" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>分布式商店平台 (Saga模式实现)</h3>
-                    <p class="project-role">架构师 & 核心后端开发者</p>
-                    <div class="tech-badges">
-                        <span class="badge">Java</span>
-                        <span class="badge">Spring Boot</span>
-                        <span class="badge">Saga Pattern</span>
-                    </div>
-                    <p class="project-description">负责设计并实现一个基于微服务架构的全栈电子商务平台。为解决分布式系统中跨服务的数据一致性难题，深入研究并手动设计、实现了Saga模式，确保了关键业务场景下的数据最终一致性。</p>
-                    <a href="https://github.com/Jackela/sydney-comp5348-group-project-showcase" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>自适应混合随机算法</h3>
-                    <p class="project-role">独立研究员与算法工程师</p>
-                    <div class="tech-badges">
-                        <span class="badge">Python</span>
-                        <span class="badge">Algorithm</span>
-                    </div>
-                    <p class="project-description">针对在线优化中的两级滑雪租赁问题，设计并实现了一种创新的自适应混合随机算法。结合了严格的理论推导（势函数分析）与大规模的实验验证（蒙特卡洛模拟）。</p>
-                    <a href="https://github.com/Jackela/COMP3608-Algorithm-Project" target="_blank" class="project-link">查看项目</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>在线购物平台 (MERN Stack)</h3>
-                    <p class="project-role">核心开发者</p>
-                    <div class="tech-badges">
-                        <span class="badge">React</span>
-                        <span class="badge">Node.js</span>
-                        <span class="badge">MVVM</span>
-                    </div>
-                    <p class="project-description">运用MERN技术栈，构建并交付了一个功能完善的全栈电子商务平台原型。前端采用了MVVM设计模式。</p>
-                    <a href="https://github.com/Jackela/sydney-tut9-g5-oldphonesales-showcase" target="_blank" class="project-link">查看项目</a>
-                </div>
-            </div>
-        </article>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <h3>联系方式</h3>
-            <p>
-                <a href="https://github.com/Jackela" target="_blank">GitHub</a> | 
-                <a href="https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf" target="_blank">简历下载</a>
-            </p>
-            <p class="footer-quote">
-                "为那些被忽略的大多数，构建全新的、更简单、更可及的价值网络"
-            </p>
-        </div>
-    </footer>
+    <section>
+      <h2>联系</h2>
+      <div class="card">
+        <p>GitHub：<a href="https://github.com/Jackela" target="_blank">@Jackela</a></p>
+        <p>主页：<a href="https://jackela.github.io/Jackela/" target="_blank">jackela.github.io/Jackela</a></p>
+        <p>简历：<a href="https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf" target="_blank">PDF 下载</a></p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
