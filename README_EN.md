@@ -9,6 +9,7 @@ Focused on software development (backend and system architecture), delivering AI
 Projects
 
 - CATAMS (Casual Academic Time Allocation Management System): Java · Spring Boot · DDD · TDD/DbC · modular monolith. GitHub: https://github.com/Jackela/casual-academic-time-allocation-management-system
+- AI Recruitment Clerk: TypeScript · NestJS · Angular · microservices. GitHub: https://github.com/Jackela/AI-Recruitment-Clerk
 - Novel‑Engine (Multi‑Agent Interactive Novel Generator): Python · Multi‑Agent · thread‑safe concurrency · caching protocol · logging. GitHub: https://github.com/Jackela/novel-engine
 
 For more details, see the website.
