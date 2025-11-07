@@ -1,20 +1,27 @@
 # Weixuan Kong (孔维轩)
 
-English
+**English** | [繁體中文](#繁體中文-香港) | [简体中文](#简体中文-内地)
 
-Early‑career developer and Master of Computer Science candidate at The University of Sydney (coursework completion expected Dec 2025). B.Sc. in Computer Science, Algoma University (2023, Cum Laude). I focus on engineering discipline: type safety, unit/integration tests, CI/CD, code reviews, observability/logging, and clear documentation.
+---
 
-- Core stack: Python, Java, TypeScript
-- Frameworks: Spring Boot, NestJS, Angular
-- Practices: Clean architecture, DDD where appropriate, modular monoliths with clear evolution paths, Docker Compose for reproducible dev, pragmatic microservices
+Early-career developer and Master of Computer Science candidate at The University ofSydney (coursework completion expected Dec 2025). B.Sc. in Computer Science, Algoma University (2023, Cum Laude). I focus on engineering discipline: type safety, unit/integration tests, CI/CD, code reviews, observability/logging, and clear documentation.
+
+- **Core Stack**: Python, Java, TypeScript
+- **Frameworks**: Spring Boot, NestJS, Angular, FastAPI, React
+- **Key Practices**:
+  - **Architecture**: Clean Architecture, Domain-Driven Design (DDD), Modular Monoliths, Event-Driven Microservices.
+  - **Testing**: Test-Driven Development (TDD), Testcontainers, Playwright (E2E), Pytest, JUnit.
+  - **DevOps & Tooling**: Docker Compose, GitHub Actions (CI/CD), ProseMirror, Instructor.
+
+---
 
 Selected Projects
-- Novel‑Engine (Python) — Multi‑agent narrative system. Implemented a caching strategy that avoided 85%+ duplicate API calls, added thread‑safe concurrency and structured logging. Repo: https://github.com/Jackela/Novel-Engine
-- Casual Academic Time Allocation Management System (Java, Spring Boot, DDD) — Contributed as a developer to a modular monolith designed for clean evolution. Repo: https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
-- AI‑Recruitment‑Clerk (TypeScript, NestJS + Angular, microservices) — “Just‑right” resume–JD matching for SMEs; tested and Docker‑Compose deployable. Repo: https://github.com/Jackela/AI-Recruitment-Clerk
-- Impetus‑Lock (TypeScript) — Under active development. Repo: https://github.com/Jackela/Impetus-Lock
+- **Novel-Engine (Python)** — A solo project to build a multi-agent narrative system. I implemented a backend caching strategy that reduced API calls by over 85%, ensured thread-safe concurrency, and integrated structured logging for diagnostics. Repo: https://github.com/Jackela/Novel-Engine
+- **Casual Academic Time Allocation Management System (Java, Spring Boot, DDD)** — A full-stack modular monolith for academic timesheet management, notable as a project **developed entirely with AI assistance**. It served as a successful experiment in AI-driven development, from architecture to implementation using Java, Spring Boot, and DDD principles. Repo: https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
+- **AI-Recruitment-Clerk (TypeScript, NestJS + Angular, microservices)** — A solo project building an event-driven microservices system for resume-to-job-description matching. I developed and tested the services in a NestJS/Angular monorepo, implementing asynchronous messaging with NATS and containerizing the application with Docker Compose. Repo: https://github.com/Jackela/AI-Recruitment-Clerk
+- **Impetus-Lock (TypeScript)** — An adversarial AI agent designed to break creative blocks. Currently under active development, exploring concepts in human-computer interaction and agent-based systems. Repo: https://github.com/Jackela/Impetus-Lock
 
-Open to graduate/entry‑level SWE, backend, or full‑stack roles and internships across Hong Kong, Mainland China, and Australia.
+Open to graduate/entry-level SWE, backend, or full-stack roles and internships across Hong Kong, Mainland China, and Australia.
 
 Contact: GitHub https://github.com/Jackela · Website https://jackela.github.io · Email Jackkong29@Gmail.com
 
@@ -27,10 +34,10 @@ Contact: GitHub https://github.com/Jackela · Website https://jackela.github.io 
 - 工程實踐：乾淨架構、適度使用 DDD、可演進的模組化單體、以 Docker Compose 支援可重現環境、務實的微服務
 
 重點項目
-- Novel‑Engine（Python）——多代理敘事系統；我實作的快取策略可避免 85%+ 重複 API 呼叫，並加入執行緒安全與結構化日誌。倉庫：https://github.com/Jackela/Novel-Engine
-- 兼職學術人員工時管理系統（Java、Spring Boot、DDD）——以開發者身份參與模組化單體的落地，便於後續演進。倉庫：https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
-- AI‑Recruitment‑Clerk（TypeScript，NestJS + Angular，微服務）——面向中小企的「剛剛好」履歷—職位匹配；具備測試與 Docker‑Compose 部署。倉庫：https://github.com/Jackela/AI-Recruitment-Clerk
-- Impetus‑Lock（TypeScript）——開發中。倉庫：https://github.com/Jackela/Impetus-Lock
+- **Novel-Engine (Python)** — 一個獨立開發的多代理敘事系統。我實作了後端快取策略（減少 85%+ 的 API 呼叫）、確保了執行緒安全，並整合了結構化日誌。倉庫：https://github.com/Jackela/Novel-Engine
+- **兼職學術人員工時管理系統 (Java, Spring Boot, DDD)** — 一個用於管理學術工時的全端模組化單體，其亮點是**完全在 AI 輔助下開發**。此項目是一次成功的 AI 驅動開發實驗，從架構設計到使用 Java、Spring Boot 和 DDD 原則的實作均由 AI 協助完成。倉庫：https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
+- **AI-Recruitment-Clerk (TypeScript, NestJS + Angular, microservices)** — 一個獨立開發的事件驅動微服務系統，用於履歷與職位描述的匹配。我在 NestJS/Angular 單體倉庫中開發並測試了所有服務，實作了 NATS 非同步訊息傳遞和 Docker Compose 容器化部署。倉庫：https://github.com/Jackela/AI-Recruitment-Clerk
+- **Impetus-Lock (TypeScript)** — 一款旨在打破創意瓶頸的對抗性 AI 代理。目前正在積極開發中，探索人機互動和代理系統相關概念。倉庫：https://github.com/Jackela/Impetus-Lock
 
 目標：尋找面向香港、內地與澳洲的畢業生／初級 SWE／後端／全端職位或實習。
 
@@ -45,11 +52,13 @@ Contact: GitHub https://github.com/Jackela · Website https://jackela.github.io 
 - 工程实践：清晰架构、适度采用 DDD、可演进的模块化单体、用 Docker Compose 支持可复现环境、务实的微服务
 
 项目亮点
-- Novel‑Engine（Python）——多智能体叙事系统；我实现的缓存策略避免了 85%+ 重复 API 调用，并加入线程安全与结构化日志。仓库：https://github.com/Jackela/Novel-Engine
-- 兼职学术人员工时管理系统（Java、Spring Boot、DDD）——以开发者身份参与模块化单体落地，便于后续演进。仓库：https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
-- AI‑Recruitment‑Clerk（TypeScript，NestJS + Angular，微服务）——面向中小企业的“刚好够用”简历—职位匹配；具备测试与 Docker‑Compose 部署。仓库：https://github.com/Jackela/AI-Recruitment-Clerk
-- Impetus‑Lock（TypeScript）——开发中。仓库：https://github.com/Jackela/Impetus-Lock
+- **Novel-Engine (Python)** — 一个独立开发的多智能体叙事系统。我实现了后端缓存策略（减少 85%+ 的 API 调用）、确保了线程安全，并集成了结构化日志。仓库：https://github.com/Jackela/Novel-Engine
+- **兼职学术人员工时管理系统 (Java, Spring Boot, DDD)** — 一个用于管理学术工时的全栈模块化单体，其亮点是**完全在 AI 辅助下开发**。此项目是一次成功的 AI 驱动开发实验，从架构设计到使用 Java、Spring Boot 和 DDD 原则的实现均由 AI 协助完成。仓库：https://github.com/Jackela/Casual-Academic-Time-Allocation-Management-System
+- **AI-Recruitment-Clerk (TypeScript, NestJS + Angular, microservices)** — 一个独立开发的事件驱动微服务系统，用于简历与职位描述的匹配。我在 NestJS/Angular 单体仓库中开发并测试了所有服务，实现了 NATS 异步消息传递和 Docker Compose 容器化部署。仓库：https://github.com/Jackela/AI-Recruitment-Clerk
+- **Impetus-Lock (TypeScript)** — 一款旨在打破创意瓶颈的对抗性 AI 代理。目前正在积极开发中，探索人机交互和智能体系统相关概念。仓库：https://github.com/Jackela/Impetus-Lock
+
+---
 
 求职方向：面向香港、内地和澳大利亚的校招／初级 SWE／后端／全栈岗位或实习。
 
-联系：GitHub https://github.com/Jackela · 网站 https://jackela.github.io · 邮箱 Jackkong29@Gmail.com
+**联系**：[GitHub](https://github.com/Jackela) · [网站](https://jackela.github.io) · 邮箱: `Jackkong29@Gmail.com`
