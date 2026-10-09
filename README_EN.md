@@ -2,7 +2,6 @@
 
 Focused on software development (backend and system architecture), delivering AI applications with solid engineering.
 
-- Resume: https://github.com/Jackela/Jackela/raw/main/%E7%AE%80%E5%8E%86.pdf
 - GitHub: https://github.com/Jackela
 - Website: https://jackela.github.io/Jackela/
 
