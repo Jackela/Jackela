@@ -2,7 +2,7 @@
 
 这里放一些用于写作、资料整理和日常工作的软件工具与实验。页面介绍和日常维护由 AI 完成。
 
-[网站](https://jackela.github.io/Jackela/) · [English](https://github.com/Jackela/Jackela/blob/main/README_EN.md) · [所有公开项目](https://github.com/Jackela?tab=repositories)
+[网站](https://jackela.github.io/Jackela/) · [English](https://github.com/Jackela/Jackela/blob/main/README_EN.md) · [项目索引](https://github.com/Jackela/Jackela/blob/main/PROJECTS.md) · [所有公开项目](https://github.com/Jackela?tab=repositories)
 
 ## 项目
 

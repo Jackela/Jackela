@@ -2,7 +2,7 @@
 
 A collection of tools and experiments for writing, organizing information, and everyday tasks. AI writes the page introductions and handles routine maintenance.
 
-[Website](https://jackela.github.io/Jackela/) · [中文](https://github.com/Jackela/Jackela/blob/main/README.md) · [All public projects](https://github.com/Jackela?tab=repositories)
+[Website](https://jackela.github.io/Jackela/) · [中文](https://github.com/Jackela/Jackela/blob/main/README.md) · [Project index](https://github.com/Jackela/Jackela/blob/main/PROJECTS.md) · [All public projects](https://github.com/Jackela?tab=repositories)
 
 ## Projects
 
