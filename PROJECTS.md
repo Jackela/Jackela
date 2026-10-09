@@ -11,6 +11,7 @@
 | [bunkiten](https://github.com/Jackela/bunkiten) | AI 文字冒险与分支存档。 |
 | [Impetus-Lock](https://github.com/Jackela/Impetus-Lock) | 带有 AI 干预和编辑约束的写作工具。 |
 | [Jackela](https://github.com/Jackela/Jackela) | 项目主页和静态网站。 |
+| [Jackela.github.io](https://github.com/Jackela/Jackela.github.io) | 网站根地址入口，转到同一份项目主页。 |
 | [Novel-Engine](https://github.com/Jackela/Novel-Engine) | 在本机运行的小说写作工具。 |
 
 ## 按需维护
