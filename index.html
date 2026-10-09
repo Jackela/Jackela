@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>孔维轩 | Software Engineer</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    /* Minimal layout without relying on old sections */
-    body { max-width: 880px; margin: 0 auto; padding: 32px 20px; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif; color: #1f2328; }
-    header h1 { margin: 0 0 6px; font-size: 2rem; }
-    header p { margin: 0 0 16px; color: #59636e; }
-    .nav { display: flex; gap: 12px; margin-bottom: 28px; }
-    .nav a { text-decoration: none; color: #0366d6; }
-    section { margin: 28px 0; }
-    h2 { font-size: 1.25rem; margin-bottom: 12px; }
-    .card { border: 1px solid #e6ebf1; border-radius: 8px; padding: 16px; background: #fff; }
-    .muted { color: #6b7280; }
-  </style>
-  <meta name="description" content="孔维轩（Weixuan Kong）——专注后端与系统架构，聚焦 AI 应用的工程化与交付。" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jackela · 一些工具和实验</title>
+  <meta name="description" content="一些用于写作、资料整理和日常工作的软件工具与实验。页面介绍和日常维护由 AI 完成。">
+  <link rel="canonical" href="https://jackela.github.io/Jackela/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="Jackela · 一些工具和实验">
+  <meta property="og:description" content="一些用于写作、资料整理和日常工作的软件工具与实验。页面介绍和日常维护由 AI 完成。">
+  <meta property="og:url" content="https://jackela.github.io/Jackela/">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>孔维轩（Weixuan Kong）</h1>
-    <p class="muted">后端与系统架构 · 聚焦 AI 应用工程化与交付</p>
-    <div class="nav">
-      <a href="https://github.com/Jackela" target="_blank">GitHub</a>
-    </div>
+  <a class="skip-link" href="#content">跳到正文</a>
+  <header class="site-header">
+    <p class="site-label"><a href="https://github.com/Jackela">Jackela</a></p>
+    <h1>一些工具和实验</h1>
+    <p class="intro">这里放一些用于写作、资料整理和日常工作的软件工具与实验。页面介绍和日常维护由 AI 完成。</p>
+    <nav class="site-nav" aria-label="页面导航">
+      <a href="#projects">项目</a>
+      <a href="#notes">记录</a>
+      <a href="#about">维护与交流</a>
+      <a href="#english" lang="en">English</a>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>关于我</h2>
-      <div class="card">
-        <p>软件工程师（后端/系统架构）。关注把 AI 应用做稳、简单、可维护。近期在做多智能体与 RAG 的工程实现。</p>
-      </div>
+  <main id="content" tabindex="-1">
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">项目</h2>
+      <ul class="project-list">
+        <li class="project-item">
+          <h3><a href="https://github.com/Jackela/Novel-Engine">Novel-Engine</a></h3>
+          <p class="summary">在本机运行的小说写作工具，支持整理设定、编辑正文和 AI 辅助写作。</p>
+        </li>
+        <li class="project-item">
+          <h3><a href="https://github.com/Jackela/Impetus-Lock">Impetus-Lock</a></h3>
+          <p class="summary">带有 AI 干预和编辑约束的写作工具，用来尝试不同的创作方式。</p>
+        </li>
+        <li class="project-item">
+          <h3><a href="https://github.com/Jackela/bunkiten">bunkiten</a></h3>
+          <p class="summary">用 AI 演绎剧情的文字冒险，支持分支选择和存档。</p>
+        </li>
+        <li class="project-item">
+          <h3><a href="https://github.com/Jackela/ClarityOKR">ClarityOKR</a></h3>
+          <p class="summary">通过问答把模糊想法整理成目标和关键结果的桌面工具。</p>
+        </li>
+        <li class="project-item">
+          <h3><a href="https://github.com/Jackela/ai_enhanced_pdf_scholar">PDF Scholar</a></h3>
+          <p class="summary">围绕 PDF 文献做检索和问答的尝试。</p>
+        </li>
+      </ul>
+      <p>使用方式、更新记录和已知问题见各项目的仓库。</p>
+      <p><a href="https://github.com/Jackela?tab=repositories">查看所有公开项目</a></p>
     </section>
 
-    <section>
-      <h2>项目</h2>
-      <div class="card">
-        <p><strong>CATAMS（临时教职工时间管理系统）</strong></p>
-        <p class="muted">Java · Spring Boot · DDD · TDD/DbC · 模块化单体</p>
-        <p><a href="https://github.com/Jackela/casual-academic-time-allocation-management-system" target="_blank">GitHub 仓库</a></p>
-      </div>
-      <div class="card" style="margin-top:12px;">
-        <p><strong>AI Recruitment Clerk（AI 招聘文员）</strong></p>
-        <p class="muted">TypeScript · NestJS · Angular · 微服务</p>
-        <p><a href="https://github.com/Jackela/AI-Recruitment-Clerk" target="_blank">GitHub 仓库</a></p>
-      </div>
-      <div class="card" style="margin-top:12px;">
-        <p><strong>Novel‑Engine（多智能体互动小说生成器）</strong></p>
-        <p class="muted">Python · Multi‑Agent · 线程安全并发 · 缓存协议 · 日志</p>
-        <p><a href="https://github.com/Jackela/novel-engine" target="_blank">GitHub 仓库</a></p>
-      </div>
+    <section id="notes" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">记录</h2>
+      <p>关注新工具能用来做什么，通过具体项目尝试，再根据使用结果修改。这里保留值得继续做的东西，也保留还没解决的问题。</p>
     </section>
 
-    <section>
-      <h2>联系</h2>
-      <div class="card">
-        <p>GitHub：<a href="https://github.com/Jackela" target="_blank">@Jackela</a></p>
-        <p>主页：<a href="https://jackela.github.io/Jackela/" target="_blank">jackela.github.io/Jackela</a></p>
-      </div>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">维护与交流</h2>
+      <p>项目开发同样有 AI 参与。具体功能和限制以各仓库当前文档为准。</p>
+      <p>如果遇到问题，或有具体的改进建议，可以在对应项目的 Issues 中留下记录。</p>
+      <p><a href="https://github.com/Jackela/Jackela/issues">报告这个页面的问题</a></p>
+    </section>
+
+    <section id="english" aria-labelledby="english-heading" lang="en">
+      <h2 id="english-heading">English</h2>
+      <details class="english">
+        <summary>About this account and its projects</summary>
+        <p>A collection of tools and experiments for writing, organizing information, and everyday tasks. AI writes the page introductions and handles routine maintenance.</p>
+        <ul>
+          <li><a href="https://github.com/Jackela/Novel-Engine">Novel-Engine</a>: A self-hosted novel-writing tool for organizing story material, editing manuscripts, and writing with AI assistance.</li>
+          <li><a href="https://github.com/Jackela/Impetus-Lock">Impetus-Lock</a>: A writing tool that experiments with AI interventions and editing constraints.</li>
+          <li><a href="https://github.com/Jackela/bunkiten">bunkiten</a>: An AI-driven text adventure with branching choices and saved storylines.</li>
+          <li><a href="https://github.com/Jackela/ClarityOKR">ClarityOKR</a>: A desktop tool that uses questions to turn a rough idea into objectives and key results.</li>
+          <li><a href="https://github.com/Jackela/ai_enhanced_pdf_scholar">PDF Scholar</a>: An experiment in searching and asking questions about PDF literature.</li>
+        </ul>
+        <p>Each repository contains its own setup instructions, updates, and known issues. For bugs or specific suggestions, please use the relevant project's Issues.</p>
+        <p>AI also participates in project development. For current features and limitations, see each repository's documentation.</p>
+      </details>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p class="footer-links"><a href="https://github.com/Jackela">GitHub</a> · <a href="https://github.com/Jackela/Jackela">页面源码</a></p>
+  </footer>
 </body>
 </html>
